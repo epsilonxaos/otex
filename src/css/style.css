@@ -30,11 +30,42 @@ header{
     height: 100%;
 }
 .menu--desk--white li {
+    font-family: "Roboto Mono";
+    font-weight: 400;
     font-size: 12px;
+    line-height: 16px;
 }
 .menu--desk--white li.active {
     color:#AF48FF ;
 }
 .menu--desk--white li+li {
     margin-left: 32px;
+}
+
+.img-technology{
+    max-height: 150px;
+    min-height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title-tech{
+    font-family: "Handel Gothic D";
+    font-weight: 300;
+    font-size: 79px;
+    line-height: 86px;
+}
+
+.title-text-tech{
+    font-family: "Handel Gothic D";
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 20.86px;
+}
+
+.text-tech{
+    font-family: "Public Sans";
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 22.33px;
 }

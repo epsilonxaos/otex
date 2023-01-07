@@ -3,11 +3,8 @@ import ReactDOM from 'react-dom/client'
 import App from './App'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './assets/font/handelgotichd/stylesheet.css'
+import './assets/font/publicsans/stylesheet.css'
 import './css/style.css'
-
-
-
-
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
