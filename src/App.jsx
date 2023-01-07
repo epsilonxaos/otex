@@ -1,7 +1,8 @@
 
 import Header from "./components/Header"
-import CaseStudy from "./components/CaseStudy"
-import Technology from "./components/Technology"
+// import CaseStudy from "./components/CaseStudy"
+// import Technology from "./components/Technology"
+import Vision from "./components/Vision"
 
 
 function App() {
@@ -10,8 +11,8 @@ function App() {
     
    
     <Header />
-    {/* <CaseStudy /> */}
-     <Technology/>  
+    
+    <Vision />
     </>
   )
 }

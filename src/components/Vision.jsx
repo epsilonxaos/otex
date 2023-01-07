@@ -1,9 +1,8 @@
 const Vision = () => {
   return (
-    <div className="vision">
+    <div className="vision" style={{Background:"#000"}}>
       <div className="container">
         <div className="row">
-          <div className="col-12 col-md-12 col-xs-12">
             <div className="col-12 col-md-6 col-xs-12">
               <h1>OUR VISION</h1>
               <p>
@@ -29,15 +28,15 @@ const Vision = () => {
               </ul>
             </div>
             <div className="col-12 col-md-6 col-xs-12">
-              <img src="" width="100%" height="100%" alt="" />
+              <img src="src/assets/img/vision.svg" width="100%" height="100%" alt="" />
             </div>
           </div>
           <div className="text-center">
-            <hr style="border: 0.5px solid #000000;" />
+            <hr/>
           </div>
         </div>
       </div>
-    </div>
+   
   );
 };
 

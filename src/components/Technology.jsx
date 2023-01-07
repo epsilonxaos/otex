@@ -16,7 +16,7 @@ const Technology = () => {
           </div>
           <div className="row">
             <div className="col-12 col-md-4 col-xs-6 text-center">
-              <div className="card">
+              <div className="card card-tecnology">
                 <div className="img-technology">
                   <img src="src/assets/img/Aggregator.svg" alt="" />
                 </div>
@@ -30,7 +30,7 @@ const Technology = () => {
               </div>
             </div>
             <div className="col-12 col-md-4 col-xs-6 text-center">
-              <div className="card">
+              <div className="card card-tecnology">
                 <div className="img-technology">
                   <img src="src/assets/img/Market.svg" alt="" />
                 </div>
@@ -45,7 +45,7 @@ const Technology = () => {
               </div>
             </div>
             <div className="col-12 col-md-4 col-xs-6 text-center">
-              <div className="card">
+              <div className="card card-tecnology">
                 <div className="img-technology">
                   <img src="src/assets/img/Trade.svg" alt="" />
                 </div>
