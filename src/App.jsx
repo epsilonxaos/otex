@@ -1,7 +1,7 @@
 
 import Header from "./components/Header"
 // import CaseStudy from "./components/CaseStudy"
-// import Technology from "./components/Technology"
+import Technology from "./components/Technology"
 import Vision from "./components/Vision"
 
 
@@ -11,7 +11,7 @@ function App() {
     
    
     <Header />
-    
+    <Technology/>
     <Vision />
     </>
   )

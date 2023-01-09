@@ -1,6 +1,6 @@
 .menu--desk--white{
 padding: 20px 20px;
-height: 101px;
+height: 89px;
 display: flex;
 align-items: center;
 background-color: #F5F5F5;
@@ -76,6 +76,48 @@ header{
 
 .card-tecnology{
     background: transparent !important;
-    border: 0.5px solid #000000;
     border-radius: 16px;
+}
+.title-text-vision{
+    font-family: "Handel Gothic D";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 79px;
+    line-height: 86px;
+    color: white;
+}
+
+.text-vision{
+    font-family: "Handel Gothic D";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 22px;
+    color: white;
+   
+}
+
+.title-vision{
+    font-family: "Public Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 22px;
+    color: white;
+   
+}
+
+.centrar{
+    display: flex;
+    align-items: center;
+}
+
+
+.pda20{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.pad70{
+    padding: 70px 70px;
 }

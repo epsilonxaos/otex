@@ -2,9 +2,9 @@ const Technology = () => {
   return (
     <div
       className="technology"
-      style={{ paddingTop: "70px", Background: "#EAEAEA" }}
+      style={{ paddingTop: "70px", background: "#EAEAEA" }}
     >
-      <div className="container">
+      <div className="container-fluid pad70">
         <div className="row">
           <div
             className="col-12 col-md-12 col-xs-12 text-right"
