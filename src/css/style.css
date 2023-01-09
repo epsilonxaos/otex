@@ -1,3 +1,4 @@
+/* Menu Blanco */
 .menu--desk--white{
 padding: 20px 20px;
 height: 89px;
@@ -42,6 +43,55 @@ header{
     margin-left: 32px;
 }
 
+
+/* Menu Negro */
+
+.menu--desk--black{
+    padding: 20px 20px;
+    height: 89px;
+    display: flex;
+    align-items: center;
+    background-color: #000;
+    }
+    
+    header{
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        z-index: 500;
+    }
+    
+    .menu--desk--black ul{
+        list-style: none;
+        margin-bottom: 0px;
+        padding-left: 0px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
+        height: 100%;
+    }
+    .menu--desk--black li {
+        font-family: "Roboto Mono";
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        color: white;
+    }
+    .menu--desk--black li.active {
+        color:#AF48FF ;
+    }
+    .menu--desk--black li+li {
+        margin-left: 32px;
+    }
+
+/* Seccion Technology */
 .img-technology{
     max-height: 150px;
     min-height: 150px;
@@ -78,6 +128,9 @@ header{
     background: transparent !important;
     border-radius: 16px;
 }
+
+/* Seccion Vision */
+
 .title-text-vision{
     font-family: "Handel Gothic D";
     font-style: normal;
@@ -106,6 +159,32 @@ header{
     color: white;
    
 }
+
+
+
+/* Seccion Case Study */
+
+.title-text-casestudy{
+    font-family: "Handel Gothic D";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 79px;
+    line-height: 86px;
+   
+}
+
+.text-casestudy{
+    font-family: "Public Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 22px;
+    
+   
+}
+
+
+/* Extras */
 
 .centrar{
     display: flex;
