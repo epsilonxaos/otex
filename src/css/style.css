@@ -210,6 +210,23 @@ header{
 }
 
 
+/* Metrics */
+
+.card-metrics{
+    background: transparent !important;
+    border-radius: 16px;
+}
+
+.title-metrics{
+    font-family: "Handel Gothic D";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 79px;
+    line-height: 86px;
+    color: white;
+}
+
+
 /* Extras */
 
 .centrar{
@@ -225,4 +242,43 @@ header{
 
 .pad70{
     padding: 70px 70px;
+}
+
+/* Footer */
+
+.title-footer{
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    color: white;
+}
+
+.title-footer-buttons{
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    color: white;
+}
+
+.title-footer-buttons:hover{
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    color: #000;
+}
+
+.title-footer-leyend{
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
 }
