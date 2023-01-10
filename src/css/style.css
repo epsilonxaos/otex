@@ -1,10 +1,19 @@
 /* Menu Blanco */
 .menu--desk--white{
-padding: 20px 20px;
-height: 89px;
-display: flex;
-align-items: center;
-background-color: #F5F5F5;
+	padding: 20px 20px;
+	height: 89px;
+	display: flex;
+	align-items: center;
+	background-color: #F5F5F5;
+	position: fixed;
+	z-index: 10;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+body {
+	padding-top: 89px;
 }
 
 header{
@@ -43,6 +52,23 @@ header{
     margin-left: 32px;
 }
 
+@media screen and (min-width: 768px) {
+	.min-h-screen {
+		min-height: calc(100vh - 89px);
+	}
+}
+
+.border-white {
+	border-top: 1px solid white
+}
+
+.border-black {
+	border-top: qpx solid black
+}
+
+.max-w {
+	max-width: 100%;
+}
 
 /* Menu Negro */
 
