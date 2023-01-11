@@ -15,10 +15,10 @@ const Footer = () => {
                     Founder</p>
                 </div>
                 <div className="col-12 col-md-11 justify-content-center " style={{paddingTop:"50px",paddingBottom:"50px"}}>
-                <ul>
-                    <li className='title-footer-buttons centrar footer-botones'><p><a>Linkedin</a></p></li>
-                    <li className='title-footer-buttons centrar footer-botones'><p><a>Discord</a></p></li>
-                    <li className='title-footer-buttons centrar footer-botones'><p><a>Telegram</a></p></li>
+                <ul className="d-flex justify-content-center p-0 list-unstyled m-0 socialMedia">
+                    <li className="col-12 col-md-4 title-footer-buttons centrar footer-botones"><a>Linkedin</a></li>
+                    <li className="col-12 col-md-4 title-footer-buttons centrar footer-botones"><a>Discord</a></li>
+                    <li className="col-12 col-md-4 title-footer-buttons centrar footer-botones"><a>Telegram</a></li>
                 </ul>
                 </div>
                

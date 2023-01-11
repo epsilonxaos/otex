@@ -220,6 +220,24 @@ header{
     background: transparent !important;
     border-radius: 16px;
     border: 0.5px solid #FFFFFF ;
+	min-height: 400px;
+	height: 40vh;
+}
+
+.card-metrics .rect-metrics::after {
+	content: "";
+	width: 1px;
+	height: 80%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin-top: auto;
+	margin-bottom: auto;
+	border-left: 1px solid rgba(255, 255, 255, 0.3);
+}
+.card-metrics .rect-metrics:last-child::after {
+	content: none;
 }
 
 .title-metrics{
@@ -247,7 +265,7 @@ header{
 }
 
 
-.rect-metrics::before{
+/* .rect-metrics::before{
     position: absolute;
     content: "";
     border-right: 0.5 solid #FFFFFF;
@@ -255,7 +273,7 @@ header{
     justify-items: center;
     align-items: center;
 
-}
+} */
 
 
 /* Extras */
@@ -288,12 +306,14 @@ header{
     background-position: center;
 }
 
-.footer-botones{
-    width: 400px;
+.footer-botones a{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	width: 100%;
     height: 90px;
-    border: 1px solid;
-    justify-content: center;
-    margin-right: 30px;
+	cursor: pointer;
 }
 
 .title-footer{
@@ -321,15 +341,13 @@ header{
     font-size: 21px;
     line-height: 25px;
     color: white;
+	transition: all .3s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 
-.title-footer-buttons:active{
-    font-family: 'Public Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 21px;
-    line-height: 25px;
+.title-footer-buttons:hover,
+.title-footer-buttons:active,
+.title-footer-buttons:focus {
     color: #000;
     background-color: #AF48FF;
 }
@@ -343,16 +361,26 @@ header{
     text-align: center;
     color: #FFFFFF;
 }
-.footer ul{
-    list-style: none;
-    margin-bottom: 0px;
-    padding-left: 0px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
+.footer .socialMedia{
+    border-top: 1px solid rgba(255, 255, 255, 0.3);;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);;
+}
+
+.footer .socialMedia .footer-botones {
+	position: relative;
+}
+.footer .socialMedia .footer-botones::after {
+	content: "";
+	width: 1px;
+	height: 80%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin-top: auto;
+	margin-bottom: auto;
+	border-left: 1px solid rgba(255, 255, 255, 0.3);
+}
+.footer .socialMedia .footer-botones:last-child::after {
+	content: none;
 }

@@ -18,7 +18,7 @@ const Metrics = () => {
 							<p className="title-text-metrics">+10,000</p>
 							<p className="text-metrics">TRADE OPTIMISED</p>
 						</div>
-						<div className="col-12 col-md-4 text-center">
+						<div className="col-12 col-md-4 rect-metrics text-center">
 							<p className="title-text-metrics">+10</p>
 							<p className="text-metrics">INTEGRATED PROTOCOLS</p>
 						</div>
