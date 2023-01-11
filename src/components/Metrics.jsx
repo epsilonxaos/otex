@@ -9,6 +9,20 @@ const Metrics = () => {
 						<h1 className="title-metrics">Metrics</h1>
                         <img src="src/assets/img/flechametrics.svg" alt="" />
 					</div>
+					<div className="row card-metrics" >
+						<div className="col-12 col-md-4 rect-metrics text-center" >
+							<p className="title-text-metrics">+1B</p>
+							<p className="text-metrics">VOLUME SETTLED</p>
+						</div>
+						<div className="col-12 col-md-4 rect-metrics text-center">
+							<p className="title-text-metrics">+10,000</p>
+							<p className="text-metrics">TRADE OPTIMISED</p>
+						</div>
+						<div className="col-12 col-md-4 text-center">
+							<p className="title-text-metrics">+10</p>
+							<p className="text-metrics">INTEGRATED PROTOCOLS</p>
+						</div>
+					</div>
 					
 				</div>
                 

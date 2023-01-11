@@ -59,11 +59,13 @@ header{
 }
 
 .border-white {
-	border-top: 1px solid white
+	border-top: 1px solid white;
+    width: 90%;
 }
 
 .border-black {
-	border-top: qpx solid black
+	border-top: 1px solid black;
+    width: 90%;
 }
 
 .max-w {
@@ -210,11 +212,14 @@ header{
 }
 
 
+
+
 /* Metrics */
 
 .card-metrics{
     background: transparent !important;
     border-radius: 16px;
+    border: 0.5px solid #FFFFFF ;
 }
 
 .title-metrics{
@@ -226,6 +231,32 @@ header{
     color: white;
 }
 
+.title-text-metrics{
+    font-family: "Handel Gothic D";
+    font-style: normal;
+    font-size: 98px;
+    color: #FFFFFF;
+}
+
+.text-metrics{
+    font-family: "Roboto Mono";
+    font-style: normal;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+
+.rect-metrics::before{
+    position: absolute;
+    content: "";
+    border-right: 0.5 solid #FFFFFF;
+    width: 90%;
+    justify-items: center;
+    align-items: center;
+
+}
+
 
 /* Extras */
 
@@ -234,6 +265,12 @@ header{
     align-items: center;
 }
 
+.text-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 .pda20{
     padding-top: 20px;
@@ -246,10 +283,32 @@ header{
 
 /* Footer */
 
+.footer-bg{
+    background-size: cover;
+    background-position: center;
+}
+
+.footer-botones{
+    width: 400px;
+    height: 90px;
+    border: 1px solid;
+    justify-content: center;
+    margin-right: 30px;
+}
+
 .title-footer{
     font-family: 'Public Sans';
     font-style: normal;
     font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    color: white;
+}
+
+.title-footer2{
+    font-family: 'Public Sans';
+    font-style: light;
+    font-weight:100;
     font-size: 25px;
     line-height: 29px;
     color: white;
@@ -264,13 +323,15 @@ header{
     color: white;
 }
 
-.title-footer-buttons:hover{
+
+.title-footer-buttons:active{
     font-family: 'Public Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 21px;
     line-height: 25px;
     color: #000;
+    background-color: #AF48FF;
 }
 
 .title-footer-leyend{
@@ -281,4 +342,17 @@ header{
     line-height: 16px;
     text-align: center;
     color: #FFFFFF;
+}
+.footer ul{
+    list-style: none;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
 }
