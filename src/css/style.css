@@ -119,6 +119,43 @@ header{
         margin-left: 32px;
     }
 
+
+/* Seccion Principal */
+.title-text-principal{
+    font-family: "Handel Gothic D";
+    font-style: normal;
+    font-size: 89px;
+    color: #fff;
+}
+
+.title-text-principal2{
+    font-family: "Handel Gothic D";
+    font-style: normal;
+    font-size: 79px;
+    color: #fff;
+}
+.title-principal{
+    font-family: "Handel Gothic D";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 22px;
+    color: white;
+   
+}
+
+
+.card-principal{
+    background: transparent !important;
+    border-radius: 16px;
+    border: 0.5px solid #FFFFFF ;
+	min-height: 375px;
+    width: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Seccion Technology */
 .img-technology{
     max-height: 150px;
