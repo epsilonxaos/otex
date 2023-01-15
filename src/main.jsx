@@ -6,6 +6,7 @@ import './assets/font/handelgotichd/stylesheet.css'
 import './assets/font/publicsans/stylesheet.css'
 import './css/style.css'
 
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />

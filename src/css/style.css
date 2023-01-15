@@ -343,6 +343,10 @@ header{
     background-position: center;
 }
 
+.svgFooter{
+    margin-right: 10px;
+}
+
 .footer-botones a{
 	display: flex;
 	align-items: center;
