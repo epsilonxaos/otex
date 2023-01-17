@@ -199,13 +199,13 @@
     display: flex;
     align-items: center;
 }
-
+/* 
 .text-center{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+} */
 
 .pda20{
     padding-top: 20px;
