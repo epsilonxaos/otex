@@ -1,0 +1,23 @@
+.casestudy{
+    padding-top: 70px;
+    padding-bottom: 50px;
+    background: #EAEAEA;
+
+    .img-case{
+        max-height: 150px;
+        min-height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    p.text{
+        font-family: 'Roboto Mono';
+        text-align: center;
+        color: #000;
+        background: #EAEAEA;
+        border-radius: 0.5;
+        border: 1px solid;
+    }
+
+}
