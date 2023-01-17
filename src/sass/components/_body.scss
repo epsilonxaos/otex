@@ -1,0 +1,79 @@
+body {
+    overflow-x: hidden;
+    .border{
+        &-white,
+        &-black {
+            width: 90%;
+        }
+
+        &-white {
+            border-top: 1px solid white;
+        }
+        
+        &-black {
+            border-top: 1px solid black;
+        }
+    }
+    
+    .max-w {
+        max-width: 100%;
+    }
+
+    .w-14 {
+        max-width: 1440px;
+    }
+
+    .titulos {
+        font-family: 'Handel Gothic D';
+        font-style: normal;
+        font-weight: 300;
+        
+
+        color: white;
+
+        font-size: 39px;
+        line-height: 47px;
+
+        color: #FFFFFF;
+
+        @media screen and (min-width: 768px) {
+            font-size: 59px;
+            line-height: 67px; 
+        }
+        @media screen and (min-width: 992px) {
+            font-size: 79px;
+            line-height: 86px; 
+        }
+    }
+
+    .textos {
+        font-family: 'Public Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: -0.04em;
+
+        color: white;
+
+        @media screen and (min-width: 768px) {
+            font-size: 16px;
+        }
+        @media screen and (min-width: 992px) {
+            font-size: 19px;
+        }
+    }
+
+    .next-section {
+        position: absolute;
+        bottom: 30px;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+
+        width: 100%;
+        max-width: 1440px;
+
+    }
+}

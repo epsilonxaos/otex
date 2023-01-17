@@ -18,7 +18,6 @@ function App() {
 
 		const slides = document.querySelectorAll(".panel-pin");
 
-		// create scene for every slide
 		slides.forEach(item => {
 			let h = item.clientHeight;
 			new ScrollMagic.Scene({
@@ -28,13 +27,10 @@ function App() {
 					offset: '-20px'
 				})
 				.on("leave enter", function (e) {
-					// console.log(e.type);
 					let elem = e.target.triggerElement();
-					console.log(elem);
 					let theme = (elem.dataset.theme) ? elem.dataset.theme : 'white';
 
 					(theme === 'white') ? setTheme('white') : setTheme('black');
-					console.log(theme);
 				})
 				// .addIndicators() // add indicators (requires plugin)
 				.addTo(controller);
