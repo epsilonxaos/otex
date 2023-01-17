@@ -2,7 +2,9 @@ import NextSeccion from "./nextSeccion";
 
 const CaseStudy = () => {
 	return (
-		<div className="casestudy min-h-screen container-fluid d-flex flex-column justify-content-between" style={{ paddingTop: "70px", paddingBottom: "50px", Background: "#EAEAEA" }}>
+		<div className="panel-pin casestudy min-h-screen container-fluid d-flex flex-column justify-content-between"
+			data-theme="black"
+		style={{ paddingTop: "70px", paddingBottom: "50px", Background: "#EAEAEA" }}>
 			<div className="row justify-content-center">
 				<div className="col-12 col-md-11 text-center">
 					<h1 className="title-text-casestudy"> CASE STUDY: <br /> COW PROTOCOL </h1>

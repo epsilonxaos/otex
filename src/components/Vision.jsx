@@ -2,7 +2,10 @@ import NextSeccion from "./nextSeccion";
 
 const Vision = () => {
 	return (
-		<div className="vision min-h-screen container-fluid d-flex flex-column justify-content-between" style={{ background: "#000", paddingTop: "70px", paddingBottom: "50px" }}>
+		<div 
+			className="panel-pin vision min-h-screen container-fluid d-flex flex-column justify-content-between"
+			data-theme="white"
+			style={{ background: "#000", paddingTop: "70px", paddingBottom: "50px" }}>
 			<div className="row justify-content-center">
 				<div className="col-12 col-md-11">
 					<div className="row centrar">

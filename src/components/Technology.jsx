@@ -2,7 +2,7 @@ import NextSeccion from "./nextSeccion";
 
 const Technology = () => {
 	return (
-		<div className="technology min-h-screen container-fluid d-flex flex-column justify-content-between" style={{ paddingTop: "70px", paddingBottom: "50px", background: "#EAEAEA" }}>
+		<div className="panel-pin technology min-h-screen container-fluid d-flex flex-column justify-content-between" data-theme="black" style={{ paddingTop: "70px", paddingBottom: "50px", background: "#EAEAEA" }}>
 			<div className="row justify-content-center">
 				<div className="col-12 col-md-11">
 					<div className="text-right" style={{ paddingBottom: "70px", }} >

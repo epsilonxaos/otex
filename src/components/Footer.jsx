@@ -2,7 +2,7 @@ import bgfooter from '../assets/img/footerbg.svg';
 import { BsDiscord, BsLinkedin, BsTelegram } from "react-icons/bs";
 const Footer = () => {
 	return (
-		<div className="footer min-h-screen container-fluid d-flex flex-column justify-content-between" style={{ paddingTop: "70px", paddingBottom: "50px", background: "#000" }}>
+		<div className="panel-pin footer min-h-screen container-fluid d-flex flex-column justify-content-between" data-theme="white" style={{ paddingTop: "70px", paddingBottom: "50px", background: "#000" }}>
             <div className="row justify-content-center">
                 <div className="col-12 col-md-11 footer-bg text-center " style={{backgroundImage:`url(${bgfooter })`,height:"450px",borderRadius:"16px"}}>
                     <p className='title-footer'>
