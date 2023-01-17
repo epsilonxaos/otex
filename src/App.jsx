@@ -18,7 +18,6 @@ function App() {
 
 		const slides = document.querySelectorAll(".panel-pin");
 
-		// create scene for every slide
 		slides.forEach(item => {
 			let h = item.clientHeight;
 			new ScrollMagic.Scene({
@@ -41,12 +40,12 @@ function App() {
 	return (
 		<>
 		<Header theme={theme} />
-		<Principal />
+		{/* <Principal />
 		<Technology/>
 		<Vision />
 		<CaseStudy/>
 		<Metrics/>
-		<Footer/>
+		<Footer/> */}
 		</>
 	)
 }
