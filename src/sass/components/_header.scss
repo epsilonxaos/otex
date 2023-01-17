@@ -56,7 +56,8 @@
     li.active {
         color: $morado;
         position: relative;
-        text-shadow: $text-shadow;
+        font-weight: 600;
+        // text-shadow: $text-shadow;
 
         &::after {
             content: "";
