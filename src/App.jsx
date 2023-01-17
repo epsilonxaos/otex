@@ -24,7 +24,8 @@ function App() {
 			new ScrollMagic.Scene({
 					triggerHook: -1,
 					triggerElement: item,
-					duration: h
+					duration: h,
+					offset: '-20px'
 				})
 				.on("leave enter", function (e) {
 					// console.log(e.type);
