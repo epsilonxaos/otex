@@ -2,6 +2,7 @@
     padding-top: 70px;
     padding-bottom: 50px;
     background: #EAEAEA;
+    position: relative;
 
     .img-case{
         max-height: 150px;
@@ -11,13 +12,49 @@
         align-items: center;
     }
 
-    p.text{
+    .titulos{
+        color: #000;
+    }
+
+    .textos{
+        color: #000;
+    }
+
+    .textos.card{
         font-family: 'Roboto Mono';
         text-align: center;
         color: #000;
         background: #EAEAEA;
-        border-radius: 0.5;
+        border-radius: 16px;
         border: 1px solid;
+    }
+
+    ul{
+        border:1px solid;
+
+        li{
+            
+            &:hover{
+                color: #fff !important;
+                background: #AF48FF;
+                
+            }
+        }
+
+        li+li{
+            border-top: 1px solid;
+        }
+    }
+
+    .card{
+        border: 1px solid;
+        border-radius: 16px;
+
+        p{
+            margin-right: 20px ;
+        }
+    
+       
     }
 
 }

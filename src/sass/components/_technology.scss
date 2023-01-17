@@ -1,0 +1,35 @@
+.technology{
+    padding-top: 70px;
+    padding-bottom: 50px;
+    background: #EAEAEA;
+    position: relative;
+
+    .titulos{
+        color: black;
+    }
+    .textos{
+        color: black;
+    }
+    .textos.public{
+        font-weight: 700;
+    }
+    .card-tecnology {
+        background: transparent !important;
+        border-radius: 16px;
+        margin-bottom: 30px;
+        
+        @media screen and (min-width: 768px) {
+            margin-bottom: 0px;
+        }
+        @media screen and (min-width: 992px) {
+            margin-bottom: 0px;
+        }
+    }
+    .img-technology {
+        max-height: 150px;
+        min-height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

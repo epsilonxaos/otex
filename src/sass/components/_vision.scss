@@ -1,24 +1,23 @@
 .vision {
 
-    .ul-list {}
+    padding-top: 70px;
+    padding-bottom: 50px;
+    background: #000;
+    position: relative;
 
-    .line-style {
-        li {
-            font-size: 14px;
-            font-weight: 400;
-            line-height: 1.2;
-            letter-spacing: 0.3;
-            color: white;
-            
-            &.active {
-                color: black;
+    .textos-vision{
+        font-family: "Handel Gothic D";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 22px;
+        color: white;
 
-            }
-
-            @media screen and (min-width: 1200px) {
-                font-size: 48px;
-                line-height: 2.2;
-            }
+        @media screen and (min-width: 768px) {
+            font-size: 16px;
+        }
+        @media screen and (min-width: 992px) {
+            font-size: 19px;
         }
     }
 }
