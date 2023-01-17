@@ -25,7 +25,7 @@ const Header = ({theme}) => {
         <>
             <div ref={ref}>
                 <nav className={`menu--desk py-3 theme-${theme}`} id="navbar">
-                    <div className="container-fluid">
+                    <div className="container-fluid w-14">
                         <div className="row align-items-center">
                             <div className="col-6 col-md-3">
                                 <Logo />
