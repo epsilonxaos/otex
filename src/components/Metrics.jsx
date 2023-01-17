@@ -1,11 +1,9 @@
 import NextSeccion from "./nextSeccion";
 import CountUp from "react-countup";
-import { useCountUp } from 'react-countup';
 import { useInView } from 'react-intersection-observer';
 
 const Metrics = () => {
 	const { ref, inView, entry } = useInView({
-		/* Optional options */
 		threshold: 0,
 		triggerOnce: true
 	});
@@ -29,11 +27,11 @@ const Metrics = () => {
 									<p className="textos">VOLUME SETTLED</p>
 								</div>
 								<div className="col-12 col-md-4 rect-metrics text-center">
-									<p className="titulos">+ {inView ? <CountUp start={0} end={10000} delay={0}> {({ countUpRef, }) => {console.log(countUpRef); return(<div> <span ref={countUpRef} /> </div> )}} </CountUp> : '10,000'}</p>
+									<p className="titulos">+{inView ? <CountUp start={0} end={10000} delay={0} formattingFn={(value) => numberWithCommas(value)} /> : '10,000'}</p>
 									<p className="textos">TRADE OPTIMISED</p>
 								</div>
 								<div className="col-12 col-md-4 rect-metrics text-center">
-									<p className="titulos">+10</p>
+									<p className="titulos">+{inView ? <CountUp start={0} end={10} delay={0} formattingFn={(value) => numberWithCommas(value)} /> : '10'}</p>
 									<p className="textos">INTEGRATED PROTOCOLS</p>
 								</div>
 							</div>
@@ -48,13 +46,7 @@ const Metrics = () => {
 };
 
 function numberWithCommas(num) {
-	console.log(num);
-	// return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+	return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
 }
-
-const SimpleHook = ({endNumber}) => {
-	const { countUp } = useCountUp({ start: 0, end: endNumber });
-	return <div>{numberWithCommas(countUp)}</div>;
-};
 
 export default Metrics;
