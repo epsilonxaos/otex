@@ -10,6 +10,50 @@
         line-height: 30px;
     }
 
+    & .centro{
+        display:block;
+        align-items: center;
+        
+        @media screen and (min-width: 768px) {
+            display: flex;
+            align-items: center;
+        }
+        @media screen and (min-width: 992px) {
+            display: flex;
+            align-items: center;
+        }
+
+        & li{
+            
+            border: 1px solid;
+            
+
+            @media screen and (min-width: 768px) {
+                border: none;
+               
+            }
+            @media screen and (min-width: 992px) {
+                border: none;
+               
+            }
+
+            & + li {
+                margin-top: 1rem;
+
+                @media screen and (min-width: 768px) {
+                   margin-top: 0;
+                   
+                }
+                @media screen and (min-width: 992px) {
+                   margin-top: 0;
+                   
+                }
+            }
+
+        }
+
+    }
+
     & .t-founder{
         color: white;
         font-family: 'Public Sans';
