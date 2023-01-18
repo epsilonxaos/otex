@@ -5,7 +5,7 @@ const Technology = () => {
 		<div className=" panel-pin technology p-0" data-theme="black">
 			<div className="container-fluid w-14">
 				<div className="d-flex flex-column justify-content-between py-40 min-h-height">
-					<h1 className="titulos text-right mb-4">TECHNOLOGY</h1>
+					<h1 className="titulos text-right mb-4 mb-lg-5">TECHNOLOGY</h1>
 
 					<div className="row text-center">
 						<div className="col-12 col-md-4 col-xs-6 mb-3 mb-lg-0 mb-xl-3">

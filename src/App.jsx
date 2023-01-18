@@ -42,8 +42,8 @@ function App() {
 			<Header theme={theme} />
 			<Principal />
 			<Technology/>
-			{/* <Vision />
-			<CaseStudy/>
+			<Vision />
+			{/* <CaseStudy/>
 			<Metrics/>
 			<Footer/> */}
 		</>
