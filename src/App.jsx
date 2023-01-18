@@ -12,44 +12,41 @@ import { useEffect, useState } from "react"
 function App() {
 	const [theme, setTheme] = useState('white');
 
-	// // useEffect(() => {
-	// // 	const controller = new ScrollMagic.Controller();
+	useEffect(() => {
+		const controller = new ScrollMagic.Controller();
 
-	// // 	const slides = document.querySelectorAll(".panel-pin");
+		const slides = document.querySelectorAll(".panel-pin");
 
-	// // 	slides.forEach(item => {
-	// // 		let h = item.clientHeight;
-	// // 		new ScrollMagic.Scene({
-	// // 				triggerHook: -1,
-	// // 				triggerElement: item,
-	// // 				duration: h,
-	// // 				offset: '-20px'
-	// // 			})
-	// // 			.on("leave enter", function (e) {
-	// // 				let elem = e.target.triggerElement();
-	// // 				let theme = (elem.dataset.theme) ? elem.dataset.theme : 'white';
+		slides.forEach(item => {
+			let h = item.clientHeight;
+			new ScrollMagic.Scene({
+					triggerHook: -1,
+					triggerElement: item,
+					duration: h,
+					offset: '-20px'
+				})
+				.on("leave enter", function (e) {
+					let elem = e.target.triggerElement();
+					let theme = (elem.dataset.theme) ? elem.dataset.theme : 'white';
 
-	// // 				(theme === 'white') ? setTheme('white') : setTheme('black');
-	// // 			})
-	// // 			// .addIndicators() // add indicators (requires plugin)
-	// // 			.addTo(controller);
-	// // 	});
-	// // }, []);
+					(theme === 'white') ? setTheme('white') : setTheme('black');
+				})
+				// .addIndicators() // add indicators (requires plugin)
+				.addTo(controller);
+		});
+	}, []);
 
 
 	return (
-		<div>
+		<>
 			<Header theme={theme} />
 			<Principal />
 			<Technology/>
 			<Vision />
 			<CaseStudy/>
-			<div>
-				{/* {inView ? 'Si' : 'No'} */}
-				<Metrics/>
-			</div>
+			<Metrics/>
 			<Footer/>
-		</div>
+		</>
 	)
 }
 
