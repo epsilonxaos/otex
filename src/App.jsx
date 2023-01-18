@@ -43,9 +43,9 @@ function App() {
 			<Principal />
 			<Technology/>
 			<Vision />
-			{/* <CaseStudy/>
+			<CaseStudy/>
 			<Metrics/>
-			<Footer/> */}
+			<Footer/>
 		</>
 	)
 }
