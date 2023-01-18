@@ -6,10 +6,12 @@
 
     .img-case{
         max-height: 150px;
-        min-height: 150px;
+        min-height: 120px;
+        margin-bottom: 30px;
         display: flex;
         justify-content: center;
         align-items: center;
+        background-color: #EAEAEA;
     }
 
     .titulos{
@@ -27,6 +29,15 @@
         background: #EAEAEA;
         border-radius: 16px;
         border: 1px solid;
+
+        font-size: 14px;
+
+        @media screen and (min-width: 768px) and (max-width: 991px) {
+            font-size: 12px;
+        }
+        @media screen and (min-width: 1440px) {
+            font-size: 16px;
+        }
     }
 
     ul{
@@ -49,12 +60,41 @@
     .card{
         border: 1px solid;
         border-radius: 16px;
+        width: 90%;
+        margin: auto;
+        height: 56px;
 
         p{
             margin-right: 20px ;
         }
-    
-       
     }
 
+
+    .lineItems {
+        position: relative;
+        z-index: 10;
+
+        &::after {
+            content: "";
+            background-color: #000;
+            position: absolute;
+            margin-left: auto;
+            margin-right: auto;
+            z-index: -1;
+            
+            width: 1px;
+            height: 90%;
+            bottom: 20px;
+            left: 0;
+            right: 0;
+
+            @media screen and (min-width: 768px) {
+                width: 90%;
+                height: 1px;
+                bottom: calc(28px + 1rem);
+                left: 0;
+                right: 0;
+            }
+        }
+    }
 }
