@@ -24,10 +24,10 @@ const Principal = () => {
 					<div className="min-h-height d-flex justify-content-between flex-column h-100 py-40">
 						{/* Info */}
 						<div className="row">
-							<div className="col-12 col-md-6 col-xl-5 mb-4 text-center text-md-left">
+							<div className="col-12 col-md-5 col-xl-5 mb-4 text-center text-lg-left">
 								<h1 className="titulos">WHAT’S OTEX</h1>
 							</div>        
-							<div className="col-12 col-md-6 col-xl-7 pl-xl-5 text-justify">
+							<div className="col-12 col-md-7 col-xl-7 pl-xl-5 text-justify">
 								<p className="textos mb-3">OTEX helps decentralized exchanges execute asset swaps at the best possible prices — pulling liquidity across different liquidity providers —, for the lowest possible cost — reducing gas consumption wherever possible — and in the safest way possible — protecting from MEV.</p>
 								<p className="textos">The stack of proprietary on-chain and off-chain software we currently maintain and are integrating across different DeFi protocols are:</p>
 							</div>
@@ -35,21 +35,21 @@ const Principal = () => {
 
 						{/* Cards */}
 						<div className="row text-center">
-							<div className="col-12 col-md-4 col-xs-6 ">
+							<div className="col-12 col-md-4 col-xs-6 mb-3">
 								<div className="wrapper p-3 d-flex align-items-center justify-content-center">
 									<p className="textos">
 										In-house built DEX aggregators that address bespoke price discovery requirements imposed by different decentralized exchanges.
 									</p>
 								</div>
 							</div>
-							<div className="col-12 col-md-4 col-xs-6 text-center">
+							<div className="col-12 col-md-4 col-xs-6 mb-3">
 								<div className="wrapper p-3 d-flex align-items-center justify-content-center">
 									<p className="textos">
 										Market making RFQ systems that underwrite just-in-time (deep) liquidity.
 									</p>
 								</div>
 							</div>
-							<div className="col-12 col-md-4 col-xs-6 text-center">
+							<div className="col-12 col-md-4 col-xs-6 mb-3">
 								<div className="wrapper p-3 d-flex align-items-center justify-content-center">
 									<p className="textos">
 										Gas-optimized settlement execution contracts
@@ -61,7 +61,7 @@ const Principal = () => {
 						{/* Text */}
 						<div className="row justify-content-center text-center">
 							<div className="col-12 col-md-9 col-lg-8 col-xl-7">
-								<p className="title-principal">Our systems have helped settled <b style={{color:"#AF48FF"}}>+1B USD</b> of on-chain transactions. <br />  We are keen to speak with new and established protocols to explore the <br /> possibility of integrating our infrastructure into your ecosystem.</p>
+								<p className="textos">Our systems have helped settled <b style={{color:"#AF48FF"}}>+1B USD</b> of on-chain transactions. <br className="d-none d-md-block" />  We are keen to speak with new and established protocols to explore the <br className="d-none d-md-block" /> possibility of integrating our infrastructure into your ecosystem.</p>
 							</div>
 						</div>
 					</div>

@@ -2,7 +2,7 @@ body {
     overflow-x: hidden;
 
 	.min-h-height {
-		min-height: calc(100vh - 63px) !important;
+		min-height: calc(100vh - 50px) !important;
 		
 		@media screen and (min-width: 768px) {
 			min-height: calc(100vh - 61px) !important;
@@ -66,14 +66,14 @@ body {
         @media screen and (min-width: 768px) {
             font-size: 16px;
         }
-        @media screen and (min-width: 992px) {
+        @media screen and (min-width: 1440px) {
             font-size: 19px;
         }
     }
 
     .next-section {
         position: absolute;
-        bottom: 30px;
+        bottom: 20px;
         left: 0;
         right: 0;
         margin-left: auto;
