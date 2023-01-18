@@ -5,9 +5,17 @@
     position: relative;
 
 
-    .textos{
-        font-size: 25px;
+    .textos {
+
+        font-size: 16px;
         line-height: 30px;
+
+        @media screen and (min-width: 768px) {
+           font-size: 25px;
+        }
+        @media screen and (min-width: 992px) {
+            font-size: 25px;
+        }
     }
 
     & .centro{
@@ -84,6 +92,15 @@
     &-bg{
         background-size: cover;
         background-position: center;
+
+        &.medio{
+            justify-items: center;
+            justify-content: center !important;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
     }
 
     &-botones a{

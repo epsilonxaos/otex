@@ -2,7 +2,7 @@ import NextSeccion from "./nextSeccion";
 
 const Technology = () => {
 	return (
-		<div className=" panel-pin technology p-0" data-theme="black">
+		<div className=" panel-pin technology p-0 " data-theme="black">
 			<div className="container-fluid w-14">
 				<div className="d-flex flex-column justify-content-between py-40 min-h-height">
 					<h1 className="titulos text-right mb-4 mb-lg-5">TECHNOLOGY</h1>
