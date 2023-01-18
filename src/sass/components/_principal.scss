@@ -9,20 +9,6 @@
 		min-height: auto;
 	}
 
-	.py-40 {
-		padding-top: 40px;
-		padding-bottom: 60px;
-		
-		@media screen and (min-width: 768px) {
-			// padding-top: 60px;
-			padding-bottom: 70px;
-		}
-		@media screen and (min-width: 1440px) {
-			padding-top: 60px;
-			padding-bottom: 95px;
-		}
-	}
-
     .tlo-main {
         font-family: 'Handel Gothic D';
         font-style: normal;

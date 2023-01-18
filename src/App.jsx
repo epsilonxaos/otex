@@ -23,7 +23,7 @@ function App() {
 					triggerHook: -1,
 					triggerElement: item,
 					duration: h,
-					offset: '-20px'
+					offset: '-62px'
 				})
 				.on("leave enter", function (e) {
 					let elem = e.target.triggerElement();
@@ -42,10 +42,10 @@ function App() {
 			<Header theme={theme} />
 			<Principal />
 			<Technology/>
-			<Vision />
+			{/* <Vision />
 			<CaseStudy/>
 			<Metrics/>
-			<Footer/>
+			<Footer/> */}
 		</>
 	)
 }

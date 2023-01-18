@@ -1,6 +1,4 @@
 .technology{
-    padding-top: 70px;
-    padding-bottom: 50px;
     background: #EAEAEA;
     position: relative;
 
@@ -17,6 +15,12 @@
         background: transparent !important;
         border-radius: 16px;
         margin-bottom: 30px;
+        width: 100%;
+        max-width: 345px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 55vh;
+        min-height: 360px;
         
         @media screen and (min-width: 768px) {
             margin-bottom: 0px;
