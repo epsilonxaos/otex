@@ -44,8 +44,8 @@ function App() {
 			<Technology/>
 			<Vision />
 			<CaseStudy/>
-			{/* <Metrics/>
-			<Footer/> */}
+			<Metrics/>
+			<Footer/>
 		</>
 	)
 }
