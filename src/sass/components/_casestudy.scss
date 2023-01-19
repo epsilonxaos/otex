@@ -60,14 +60,21 @@
     .list-info{
         border: 1px solid;
         border-radius: 16px;
-        width: 90%;
         margin: auto;
-        // height: 56px;
+        width: 100%;
+
+        @media screen and (min-width: 768px) {
+            width: 90%;
+        }
 
         li {
-            padding: 30px 20px;
+            padding: 15px 15px;
             cursor: initial;
             user-select: none;
+
+            @media screen and (min-width: 1440px) {
+                padding: 25px 20px;
+            }
             
             &:hover {
                 p {
@@ -82,11 +89,16 @@
 
         p {
             font-weight: 400;
-            font-size: 26px;
-            line-height: 31px;
             display: flex;
             align-items: center;
             letter-spacing: -0.04em;
+            font-size: 20px;
+            line-height: 21px;
+
+            @media screen and (min-width: 992px) {
+                font-size: 26px;
+                line-height: 31px;
+            }
 
             span {
                 font-family: "Roboto Mono";
@@ -130,10 +142,17 @@
         }
     }
 
-    .img-case {
-        // height: 50vh;
+    .img-case2 {
+        height: 100%;
+        object-fit: cover;
+        border-radius: 16px;
         max-height: 760px;
         min-height: 350px;
         max-width: 615px;
+        width: 90%;
+
+        @media screen and (min-width: 992px) {
+            height: 80vh;
+        }
     }
 }

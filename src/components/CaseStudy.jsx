@@ -53,21 +53,23 @@ const CaseStudy = () => {
 			
 			
 			<div className="casestudy p-0 position-relative">
-				<div className="container-fluid min-h-height py-40 w-14">
-					<div className="row">
-						<div className="col-12 col-md-6 col-xs-12">
-							<p className="text-casestudy mb-5 pb-5">Our trade batch execution optimization system makes use of all the systems developed by OTEX to achieve the following:</p>
-						
-							<ul className="list-unstyled list-info p-0 m-0 overflow-hidden">
-								<li><p className="p-3 mb-0 pr-5 mr-5 pl-4" > <span className="pr-5">01</span>  Efficient and accurate price discovery</p></li>
-								<li><p className="p-3 mb-0 pr-5 mr-5 pl-4" > <span className="pr-5">02</span>  Market maker RFQ integrations</p></li>
-								<li><p className="p-3 mb-0 pr-5 mr-5 pl-4" > <span className="pr-5">03</span>  Settlement cost optimization</p></li>
-								<li><p className="p-3 mb-0 pr-5 mr-5 pl-4" > <span className="pr-5">04</span>  Trade execution optimization at batch level</p></li>
-							</ul>
+				<div className="container-fluid w-14">
+					<div className="min-h-height py-40 ">
+						<div className="row">
+							<div className="col-12 col-md-6 col-xs-12 pl-lg-4 mb-4 mb-md-0">
+								<p className="text-casestudy mb-5 pb-4">Our trade batch execution optimization system makes use of all the systems developed by OTEX to achieve the following:</p>
+							
+								<ul className="list-unstyled list-info p-0 m-0 overflow-hidden">
+									<li><p className="p-3 mb-0 pr-5 mr-lg-5 pl-4" > <span className="pr-5">01</span>  Efficient and accurate price discovery</p></li>
+									<li><p className="p-3 mb-0 pr-5 mr-lg-5 pl-4" > <span className="pr-5">02</span>  Market maker RFQ integrations</p></li>
+									<li><p className="p-3 mb-0 pr-5 mr-lg-5 pl-4" > <span className="pr-5">03</span>  Settlement cost optimization</p></li>
+									<li><p className="p-3 mb-0 pr-5 mr-lg-5 pl-4" > <span className="pr-5">04</span>  Trade execution optimization at batch level</p></li>
+								</ul>
 
-						</div>
-						<div className="col-12 col-md-6 col-xs-12">
-							<img className="img-case max-w" src={caseStudy5}  alt="Case study" />
+							</div>
+							<div className="col-12 col-md-6 col-xs-12 text-center">
+								<img className="img-case2 max-w mx-auto" src={caseStudy5}  alt="Case study" />
+							</div>
 						</div>
 					</div>
 				</div>
