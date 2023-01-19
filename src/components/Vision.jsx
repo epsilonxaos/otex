@@ -1,5 +1,7 @@
 import NextSeccion from "./nextSeccion";
 
+import vision from "../assets/img/vision.svg";
+
 const Vision = () => {
 	return (
 		<div className="panel-pin vision p-0" data-theme="white">
@@ -16,7 +18,7 @@ const Vision = () => {
 							</ul>
 						</div>
 						<div className="col-12 col-md-6 col-xs-12 text-center mb-3 mb-md-0">
-							<img src="src/assets/img/vision.svg" className="max-w w-75" />
+							<img src={vision} className="max-w w-75" />
 						</div>
 					</div>
 				</div>

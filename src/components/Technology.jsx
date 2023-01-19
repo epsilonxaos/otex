@@ -1,5 +1,9 @@
 import NextSeccion from "./nextSeccion";
 
+import aggregator from "../assets/img/Aggregator.svg";
+import market from "../assets/img/Market.svg";
+import trade from "../assets/img/Trade.svg";
+
 const Technology = () => {
 	return (
 		<div className=" panel-pin technology p-0 " data-theme="black">
@@ -12,7 +16,7 @@ const Technology = () => {
 							<div className="card card-tecnology d-flex flex-columns align-items-center">
 								<div className="col-5 col-xl-6 d-flex align-items-end justify-content-center">
 									<div className="img-technology">
-										<img src="src/assets/img/Aggregator.svg" alt="" />
+										<img src={aggregator} alt="OTEX AGGREGATOR" />
 									</div>
 								</div>
 								<div className="p-3">
@@ -25,7 +29,7 @@ const Technology = () => {
 							<div className="card card-tecnology d-flex flex-columns align-items-center">
 								<div className="col-5 col-xl-6 d-flex align-items-end justify-content-center">
 									<div className="img-technology">
-										<img src="src/assets/img/Market.svg" alt="" />
+										<img src={market} alt="OTEX MARKET MAKER" />
 									</div>
 								</div>
 								<div className="p-3">
@@ -38,7 +42,7 @@ const Technology = () => {
 							<div className="card card-tecnology d-flex flex-columns align-items-center">
 								<div className="col-5 col-xl-6 d-flex align-items-end justify-content-center">
 									<div className="img-technology">
-										<img src="src/assets/img/Trade.svg" alt="" />
+										<img src={trade} alt="OTEX TRADE EXECUTION" />
 									</div>
 								</div>
 								<div className="p-3">												

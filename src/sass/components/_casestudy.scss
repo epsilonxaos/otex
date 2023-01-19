@@ -57,15 +57,47 @@
         }
     }
 
-    .card{
+    .list-info{
         border: 1px solid;
         border-radius: 16px;
         width: 90%;
         margin: auto;
-        height: 56px;
+        // height: 56px;
 
-        p{
-            margin-right: 20px ;
+        li {
+            padding: 30px 20px;
+            cursor: initial;
+            user-select: none;
+            
+            &:hover {
+                p {
+                    color: white;
+
+                    span {
+                        color: white
+                    }
+                }
+            }
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 26px;
+            line-height: 31px;
+            display: flex;
+            align-items: center;
+            letter-spacing: -0.04em;
+
+            span {
+                font-family: "Roboto Mono";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 25px;
+                line-height: 33px;
+                letter-spacing: -0.04em;
+
+                color: #000000;
+            }
         }
     }
 
@@ -96,5 +128,12 @@
                 right: 0;
             }
         }
+    }
+
+    .img-case {
+        // height: 50vh;
+        max-height: 760px;
+        min-height: 350px;
+        max-width: 615px;
     }
 }

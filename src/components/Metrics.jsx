@@ -3,6 +3,8 @@ import CountUp from "react-countup";
 import { useInView } from 'react-intersection-observer';
 import { useState } from "react";
 
+import flechametrics from '../assets/img/flechametrics.svg';
+
 const Metrics = () => {
 	const { ref, inView, entry } = useInView({
 		threshold: 0,
@@ -16,7 +18,7 @@ const Metrics = () => {
 					<div className="d-flex flex-column justify-content-around py-40 min-h-height" >
 						<div className="text-left"	 >
 							<h1 className="titulos mb-0">Metrics</h1>
-							<img src="src/assets/img/flechametrics.svg" alt="" />
+							<img src={flechametrics} alt="Metricas" />
 						</div>
 
 						<div className="row metrics-card text-center" >
