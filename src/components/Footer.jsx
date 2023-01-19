@@ -2,13 +2,13 @@ import bgfooter from '../assets/img/footerbg.svg';
 import { BsDiscord, BsLinkedin, BsTelegram } from "react-icons/bs";
 const Footer = () => {
 	return (
-		<div className="panel-pin footer " data-theme="white">
+		<div className="panel-pin footer p-0" data-theme="black">
             <div className="container-fluid w-14">
-                <div className="d-flex flex-column justify-content-between">
+                <div className="d-flex flex-column justify-content-around py-40 pb-2 min-h-height">
 
-                   <div className="row" style={{marginLeft:"0",marginRight:"0"}}>
+                   <div className="row">
                         <div className="col-md-12">
-                            <div className='footer-bg medio' style={{backgroundImage:`url(${bgfooter })`,height:"450px",borderRadius:"16px"}}>
+                            <div className='footer-bg medio p-4' style={{backgroundImage:`url(${bgfooter })`}}>
                             <p className='textos'>
                                 “OTEX is defying legacy web2 and web3 trade execution middleware <br />
                                 by combining the best of both worlds”
