@@ -10,21 +10,45 @@
         border: 0.5px solid #FFFFFF ;
         margin-left: auto;
         margin-right: auto;
-        height: 55vh;
+        height: 50vh;
         min-height: 360px;
+        width: 90%;
+
+        @media screen and (max-width: 767px) {
+            max-width: 360px
+        }
+
+        .titulos {
+            @media screen and (min-width: 768px) and (max-width: 991px) {
+                font-size: 40px;
+            }
+        }
     }
     
     &-card .rect-metrics::after {
         content: "";
-        width: 1px;
-        height: 80%;
         position: absolute;
-        right: 0;
-        top: 0;
-        bottom: 0;
-        margin-top: auto;
-        margin-bottom: auto;
-        border-left: 1px solid rgba(255, 255, 255, 0.3);
+        
+        @media screen and (max-width: 767px) {
+            width: 80%;
+            height: 1px;
+            border-top: 1px solid #ffffff4d;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin-left: auto;
+            margin-right: auto;
+        }        
+        @media screen and (min-width: 768px) {
+            border-left: 1px solid #ffffff4d;
+            width: 1px;
+            height: 80%;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin-top: auto;
+            margin-bottom: auto;
+        }
     }
     &-card .rect-metrics:last-child::after {
         content: none;
@@ -36,7 +60,6 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-    
     }
 
     .textos{
