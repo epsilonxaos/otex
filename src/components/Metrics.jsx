@@ -16,8 +16,8 @@ const Metrics = () => {
 		<div className="panel-pin metrics" data-theme="white" ref={ref}>
 				<div className="container-fluid w-14">
 					<div className="d-flex flex-column justify-content-around py-40 min-h-height" >
-						<div className="text-left"	 >
-							<h1 className="titulos mb-0">Metrics</h1>
+						<div className="text-left pl-lg-5 "	 >
+							<h1 className="titulos mb-0">METRICS</h1>
 							<img src={flechametrics} alt="Metricas" />
 						</div>
 

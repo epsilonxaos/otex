@@ -7,8 +7,8 @@ const Principal = () => {
             <div className="principal d-flex align-items-center">
                 <div className="container-fluid w-14">
                     <div className="row justify-content-center">
-                        <div className="col-12">
-                            <h1 className="tlo-main mb-0">OPTIMAL <br /> TRADE</h1>
+                        <div className="col-12 pl-lg-5">
+                            <h1 className="tlo-main mb-0">OPTIMAL <br className="d-none d-lg-block" /> TRADE</h1>
                             <h1 className="tlo-main mb-0">EXECUTION</h1>
                         </div>
                     </div>
@@ -24,12 +24,12 @@ const Principal = () => {
 					<div className="min-h-height d-flex justify-content-between flex-column h-100 py-40">
 						{/* Info */}
 						<div className="row">
-							<div className="col-12 col-md-5 col-xl-5 mb-4 text-center text-lg-left pl-xl-4 pr-xl-0">
+							<div className="col-12 col-md-5 col-xl-5 mb-4 text-center text-lg-left pl-lg-5 pr-xl-0">
 								<h1 className="titulos">WHAT’S OTEX</h1>
 							</div>        
 							<div className="col-12 col-md-7 col-xl-7 pl-xl-5 text-justify pr-xl-5">
-								<p className="textos mb-3">OTEX helps decentralized exchanges execute asset swaps at the best possible prices — pulling liquidity across different liquidity providers —, for the lowest possible cost — reducing gas consumption wherever possible — and in the safest way possible — protecting from MEV.</p>
-								<p className="textos">The stack of proprietary on-chain and off-chain software we currently maintain and are integrating across different DeFi protocols are:</p>
+								<p className="textos mb-3">OTEX helps decentralized exchanges execute asset swaps at the best <br className="d-none d-lg-block" /> possible prices — pulling liquidity across different liquidity providers —, for <br className="d-none d-lg-block"/> the lowest possible cost — reducing gas consumption wherever possible — <br className="d-none d-lg-block"/> and in the safest way possible — protecting from MEV.</p>
+								<p className="textos">The stack of proprietary on-chain and off-chain software we currently <br className="d-none d-lg-block"/> maintain and are integrating across different DeFi protocols are:</p>
 							</div>
 						</div>
 

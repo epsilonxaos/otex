@@ -10,11 +10,11 @@ const Footer = () => {
                         <div className="col-md-12">
                             <div className='footer-bg medio p-4' style={{backgroundImage:`url(${bgfooter })`}}>
                             <p className='textos'>
-                                “OTEX is defying legacy web2 and web3 trade execution middleware <br />
-                                by combining the best of both worlds”
+                            “OTEX is defying legacy web2 and web3 trade execution middleware <br />by combining the best of both worlds”
+
                             </p>
                             <p className='textos' style={{paddingTop:"30px"}}>
-                            Felix Faria 
+                            Félix Faria 
                             </p>
                             <p className='t-founder'>
                             Founder</p>

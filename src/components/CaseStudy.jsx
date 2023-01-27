@@ -14,8 +14,8 @@ const CaseStudy = () => {
 				<div className="container-fluid w-14">
 					<div className="min-h-height d-flex flex-column justify-content-around py-40">
 						<div className="wrapper text-center">
-							<h1 className="titulos mb-2"> CASE STUDY: <br /> COW PROTOCOL </h1>
-							<p className="textos mb-4"> OTEX integrated its systems to develop a trade batch execution <br /> optimization system a.k.a. ‘solver’ for COW protocol. </p>
+							<h1 className="titulos mb-4"> CASE STUDY: <br className="d-none d-lg-block" /> COW PROTOCOL </h1>
+							<p className="textos mb-4"> OTEX integrated its systems to develop a trade batch execution <br className="d-none d-lg-block" /> optimization system a.k.a. ‘solver’ for COW protocol. </p>
 						</div>
 						
 						<div className="row lineItems">
