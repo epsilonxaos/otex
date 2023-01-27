@@ -97,4 +97,21 @@ body {
 			padding-bottom: 95px;
 		}
 	}
+
+    .style0{
+        
+        padding-inline-start: 0;
+        list-style: none;
+        
+        @media screen and (min-width: 768px) {
+			 padding-inline-start: 40px;
+             list-style: disc;
+			
+		}
+		@media screen and (min-width: 1440px) {
+			 padding-inline-start: 40px;
+             list-style: disc;
+		}
+
+    }
 }
