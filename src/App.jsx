@@ -47,8 +47,9 @@ function App() {
 				<Vision />
 				<CaseStudy/>
 				<Metrics/>
+			
+				<Footer/>
 			</main>
-			<Footer/>
 		</>
 	)
 }

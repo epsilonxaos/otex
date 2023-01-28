@@ -10,10 +10,10 @@
         color: black;
         font-size: 16px;
         line-height: 30px;
-        font-weight: 500 !important;
+        font-weight: 400;
 
         @media screen and (min-width: 768px) {
-           font-size: 25px;
+           font-size: 20px;
         }
         @media screen and (min-width: 992px) {
             font-size: 25px;
@@ -70,6 +70,10 @@
         font-size: 14px;
         font-weight: 300;
 
+        &.tlight {
+            font-weight: 100;
+        }
+
         @media screen and (min-width: 768px) {
             font-size: 25px;
         }
@@ -98,6 +102,10 @@
         min-height: 250px;
         border-radius: 16px;
         max-height: 300px;
+        padding-top: 45px;
+        padding-bottom: 45px;
+        padding-left: 20px;
+        padding-right: 20px;
 
         .textos {
             color: white;
