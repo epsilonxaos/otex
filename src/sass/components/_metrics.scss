@@ -4,21 +4,22 @@
     background: #000;
     position: relative;
 
+
+
+
     &-card{
         background: transparent !important;
         border-radius: 16px;
         border: 1px solid rgba(255, 255, 255, 0.3019607843) ;
         margin-left: auto;
         margin-right: auto;
-        height: 50vh;
-        min-height: 360px;
+        height: 542px;
         width: 90%;
+        max-width: 1294px;
 
-        @media screen and (max-width: 767px) {
-            max-width: 360px
-        }
 
         .titulos {
+         
             @media screen and (min-width: 768px) and (max-width: 991px) {
                 font-size: 40px;
             }

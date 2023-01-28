@@ -118,15 +118,6 @@
    
 }
 
-.text-casestudy{
-    font-family: "Public Sans";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 19px;
-    line-height: 22px;
-    
-   
-}
 
 
 
@@ -281,27 +272,4 @@
     line-height: 16px;
     text-align: center;
     color: #FFFFFF;
-}
-.footer .socialMedia{
-    border-top: 1px solid rgba(0, 0, 0, 0.3);;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.3);;
-}
-
-.footer .socialMedia .footer-botones {
-	position: relative;
-}
-.footer .socialMedia .footer-botones::after {
-	content: "";
-	width: 1px;
-	height: 80%;
-	position: absolute;
-	right: 0;
-	top: 0;
-	bottom: 0;
-	margin-top: auto;
-	margin-bottom: auto;
-	border-left: 1px solid rgba(0, 0, 0, 0.3);
-}
-.footer .socialMedia .footer-botones:last-child::after {
-	content: none;
 }

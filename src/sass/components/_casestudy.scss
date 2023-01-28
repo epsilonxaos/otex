@@ -21,6 +21,26 @@
     .textos{
         color: #000;
     }
+    
+
+    .text-casestudy{
+        font-family: "Public Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        
+        @media screen and (min-width: 768px) {
+            font-size: 16px;
+            
+         }
+         @media screen and (min-width: 992px) {
+            font-size: 17px;
+            
+         }
+    }
+    
+
 
     .textos.card{
         font-family: 'Roboto Mono';
@@ -128,7 +148,7 @@
             
             width: 1px;
             height: 90%;
-            bottom: 20px;
+            bottom: 0px;
             left: 0;
             right: 0;
 

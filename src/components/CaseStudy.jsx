@@ -14,8 +14,8 @@ const CaseStudy = () => {
 				<div className="container-fluid w-14">
 					<div className="min-h-height d-flex flex-column justify-content-around py-40">
 						<div className="wrapper text-center">
-							<h1 className="titulos mb-4"> CASE STUDY: <br className="d-none d-lg-block" /> COW PROTOCOL </h1>
-							<p className="textos mb-4"> OTEX integrated its systems to develop a trade batch execution <br className="d-none d-lg-block" /> optimization system a.k.a. ‘solver’ for COW protocol. </p>
+							<h1 className="titulos"> CASE STUDY: <br className="d-none d-lg-block" /> COW PROTOCOL </h1>
+							<p className="textos mb-4 pt-30"> OTEX integrated its systems to develop a trade batch execution <br className="d-none d-md-block" /> optimization system a.k.a. ‘solver’ for COW protocol. </p>
 						</div>
 						
 						<div className="row lineItems">
@@ -56,8 +56,8 @@ const CaseStudy = () => {
 				<div className="container-fluid w-14">
 					<div className="min-h-height py-40 ">
 						<div className="row">
-							<div className="col-12 col-md-6 col-xs-12 pl-lg-4 mb-4 mb-md-0">
-								<p className="text-casestudy mb-5 pb-4">Our trade batch execution optimization system makes use of all the systems developed by OTEX to achieve the following:</p>
+							<div className="col-12 col-md-6 col-xs-12 pl-lg-4 mb-4 mb-md-0 ">
+								<p className="text-casestudy mb-5 pb-4 centrado">Our trade batch execution optimization system makes use of all the systems developed by OTEX to achieve the following:</p>
 							
 								<ul className="list-unstyled list-info p-0 m-0 overflow-hidden">
 									<li><p className="p-3 mb-0 pr-5 mr-lg-5 pl-4" > <span className="pr-5">01</span>  Efficient and accurate price discovery</p></li>

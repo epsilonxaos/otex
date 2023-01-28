@@ -10,6 +10,7 @@
         color: black;
         font-size: 16px;
         line-height: 30px;
+        font-weight: 500 !important;
 
         @media screen and (min-width: 768px) {
            font-size: 25px;
@@ -34,7 +35,7 @@
 
         & li{
             
-            border: 1px solid;
+            border: 1px solid rgba(0, 0, 0, 0.3);
             
 
             @media screen and (min-width: 768px) {
@@ -67,7 +68,7 @@
         color: white;
         font-family: 'Public Sans';
         font-size: 14px;
-        font-weight: 100;
+        font-weight: 300;
 
         @media screen and (min-width: 768px) {
             font-size: 25px;
@@ -133,15 +134,27 @@
     }
 
 
-     &.socialMedia{
-        border-top: 1px solid rgba(0, 0, 0, 0.3);;
-        border-bottom: 1px solid rgba(0, 0, 0, 0.3);;
+     & .socialMedia{
+        
+        
+
+        @media screen and (min-width: 768px) {
+            border-top: 1px solid rgba(0, 0, 0, 0.3);;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.3);;
+            
+        }
+        @media screen and (min-width: 992px) {
+            border-top: 1px solid rgba(0, 0, 0, 0.3);;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.3);;  
+            
+        }
+
     }
     
      &.socialMedia &-botones {
         position: relative;
     }
-    &.socialMedia &botones::after {
+    & .socialMedia &-botones::after {
         content: "";
         width: 1px;
         height: 80%;
@@ -151,7 +164,19 @@
         bottom: 0;
         margin-top: auto;
         margin-bottom: auto;
-        border-left: 1px solid rgba(0, 0, 0, 0.3);
+        
+        @media screen and (min-width: 768px) {
+            
+            border-left: 1px solid rgba(0, 0, 0, 0.3);
+        }
+        @media screen and (min-width: 992px) {
+             
+            border-left: 1px solid rgba(0, 0, 0, 0.3);
+        }
+
+        
+
+
     }
     &.socialMedia &botones:last-child::after {
         content: none;

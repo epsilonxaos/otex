@@ -101,7 +101,7 @@ body {
 		padding-bottom: 60px;
 		
 		@media screen and (min-width: 768px) {
-			// padding-top: 60px;
+			
 			padding-bottom: 70px;
 		}
 		@media screen and (min-width: 1440px) {
@@ -114,16 +114,45 @@ body {
         
         padding-inline-start: 0;
         list-style: none;
+        text-align: center;
         
         @media screen and (min-width: 768px) {
 			 padding-inline-start: 40px;
              list-style: disc;
+             text-align: initial;
 			
 		}
 		@media screen and (min-width: 1440px) {
 			 padding-inline-start: 40px;
              list-style: disc;
+             text-align: initial;
 		}
 
+    }
+
+    .pt-30{
+        padding-top: 10px;
+
+        @media screen and (min-width: 768px) {
+            padding-top: 30px;
+           
+       }
+       @media screen and (min-width: 1440px) {
+            padding-top: 30px;
+       }
+    }
+
+
+    .centrado{
+        text-align: center;
+        @media screen and (min-width: 768px) {
+           
+            text-align: initial;
+           
+       }
+       @media screen and (min-width: 1440px) {
+           
+            text-align: initial;
+       }
     }
 }
