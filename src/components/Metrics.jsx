@@ -13,7 +13,7 @@ const Metrics = () => {
 	const [isInit, setIsInit] = useState(false);
 
 	return (
-		<div className="panel-pin metrics" data-theme="white" ref={ref}>
+		<div className="panel-pin metrics" data-theme="white" ref={ref} id="metrics">
 				<div className="container-fluid w-14">
 					<div className="d-flex flex-column justify-content-around mb-5 min-h-height" >
 						<div className="centrado mb-5"	 >

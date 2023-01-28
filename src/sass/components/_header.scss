@@ -30,10 +30,10 @@ $text-shadow: 0 0 1px #AF48FF,
         transition: all 100ms ease-in;
          
         & + li{
-            margin-left: 32px;
-
-           
+            margin-left: 32px
         }
+
+        a {cursor: pointer; text-decoration: none !important;}
     }
 
     svg {
@@ -157,7 +157,7 @@ $text-shadow: 0 0 1px #AF48FF,
         }
     }
 
-    li.active {
+    li .active {
         color: $morado;
         position: relative;
         font-weight: 600;
@@ -212,7 +212,7 @@ $text-shadow: 0 0 1px #AF48FF,
             }
         }
 
-        li.active {
+        li .active {
             color: $morado;
             position: relative;
             font-weight: 600;

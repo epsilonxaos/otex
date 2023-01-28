@@ -4,7 +4,7 @@ import vision from "../assets/img/vision.svg";
 
 const Vision = () => {
 	return (
-		<div className="panel-pin vision p-0" data-theme="white">
+		<div className="panel-pin vision p-0" data-theme="white" id="vision">
 			<div className="container-fluid w-14">
 				<div className="min-h-height py-40 d-flex flex-column justify-content-center">
 					<div className="row align-items-center">

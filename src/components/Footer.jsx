@@ -2,7 +2,7 @@ import bgfooter from '../assets/img/footerbg.svg';
 import { BsDiscord, BsLinkedin, BsTelegram } from "react-icons/bs";
 const Footer = () => {
 	return (
-		<div className="panel-pin footer pt-5" data-theme="black">
+		<div className="panel-pin footer pt-5" data-theme="black" id="contact">
             <div className="container-fluid w-14">
                 <div className="d-flex flex-column justify-content-around py-40 pb-2 min-h-height">
 

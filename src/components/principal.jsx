@@ -19,7 +19,7 @@ const Principal = () => {
             </div>
 
             {/* Que es Otex */}
-            <div className="principal p-0 min-h-auto">
+            <div className="principal p-0 min-h-auto" id="about">
                 <div className="container-fluid w-14 h-100">
 					<div className="min-h-height d-flex justify-content-between flex-column h-100 py-40">
 						{/* Info */}

@@ -1,16 +1,17 @@
 import { useClickOutside } from "@mantine/hooks";
 import { useState } from "react";
 import Logo from "./logo";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 const ListMenu = () => {
     return(
         <ul id="nav" className="list-unstyled list-menu mb-1 d-md-flex align-items-md-center justify-content-md-end">
-            <li className="active"><a>ABOUT</a></li>
-            <li className=""><a>TECHNOLOGY</a></li>
-            <li className="active"><a>VISION</a></li>
-            <li className=""><a>CASE STUDY</a></li>
-            <li className=""><a>METRICS</a></li>
-            <li className=""><a>CONTACT</a></li>
+            <li><Link activeClass="active" to="about" spy={true} smooth={true} offset={-61} duration={500} >ABOUT</Link></li>
+            <li><Link activeClass="active" to="technology" spy={true} smooth={true} offset={-61} duration={500} >TECHNOLOGY</Link></li>
+            <li><Link activeClass="active" to="vision" spy={true} smooth={true} offset={-61} duration={500} >VISION</Link></li>
+            <li><Link activeClass="active" to="caseStudy" spy={true} smooth={true} offset={-61} duration={500} >CASE STUDY</Link></li>
+            <li><Link activeClass="active" to="metrics" spy={true} smooth={true} offset={-61} duration={500} >METRICS</Link></li>
+            <li><Link activeClass="active" to="contact" spy={true} smooth={true} offset={-61} duration={500} >CONTACT</Link></li>
         </ul>
     )
 }

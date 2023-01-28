@@ -9,7 +9,7 @@ import caseStudy5 from '../assets/img/casestudy05.png';
 
 const CaseStudy = () => {
 	return (
-		<div className="panel-pin" data-theme="black">
+		<div className="panel-pin" data-theme="black" id="caseStudy">
 			<div className="casestudy p-0">
 				<div className="container-fluid w-14">
 					<div className="min-h-height d-flex flex-column justify-content-around py-40">
