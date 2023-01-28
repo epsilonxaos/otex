@@ -32,6 +32,41 @@ body {
         max-width: 1440px;
     }
 
+    .numberToCard {
+        position: absolute;
+        top: 12px;
+        left: 12px;
+        font-family: 'Roboto Mono';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 15px;
+        display: flex;
+        align-items: center;
+
+        letter-spacing: -0.04em;
+
+        &.white {
+            color: #FFFFFF;
+        }
+
+        &.black {
+            color: black;
+        }
+
+        $sizeCircle: 3px;
+
+        &::before {
+            content: "";
+            width: $sizeCircle;
+            height: $sizeCircle;
+            border-radius: $sizeCircle;
+            background-color: #AF48FF;
+            display: inline-block;
+            margin-right: 10px;
+        }
+    }
+
     .titulos {
         font-family: 'Handel Gothic D';
         font-style: normal;

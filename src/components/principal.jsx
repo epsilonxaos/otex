@@ -1,4 +1,5 @@
 import NextSeccion from "./nextSeccion";
+import NumberToCard from "./numberToCard";
 
 const Principal = () => {
 	return (
@@ -38,21 +39,24 @@ const Principal = () => {
 						{/* Cards */}
 						<div className="row text-center mb-5">
 							<div className="col-12 col-md-4 col-xs-6 mb-3">
-								<div className="wrapper p-3 d-flex align-items-center justify-content-center">
+								<div className="wrapper p-3 d-flex align-items-center justify-content-center position-relative">
+									<NumberToCard number={"01"} numberSize={"03"} />
 									<p className="textos">
 										In-house built DEX aggregators that address bespoke price discovery requirements imposed by different decentralized exchanges.
 									</p>
 								</div>
 							</div>
 							<div className="col-12 col-md-4 col-xs-6 mb-3">
-								<div className="wrapper p-3 d-flex align-items-center justify-content-center">
+								<div className="wrapper p-3 d-flex align-items-center justify-content-center position-relative">
+									<NumberToCard number={"02"} numberSize={"03"} />
 									<p className="textos">
 										Market making RFQ systems that underwrite just-in-time (deep) liquidity.
 									</p>
 								</div>
 							</div>
 							<div className="col-12 col-md-4 col-xs-6 mb-3">
-								<div className="wrapper p-3 d-flex align-items-center justify-content-center">
+								<div className="wrapper p-3 d-flex align-items-center justify-content-center position-relative">
+									<NumberToCard number={"03"} numberSize={"03"} />
 									<p className="textos">
 										Gas-optimized settlement execution contracts
 									</p>

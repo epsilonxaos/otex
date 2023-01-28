@@ -3,6 +3,7 @@ import NextSeccion from "./nextSeccion";
 import aggregator from "../assets/img/Aggregator.svg";
 import market from "../assets/img/Market.svg";
 import trade from "../assets/img/Trade.svg";
+import NumberToCard from "./numberToCard";
 
 const Technology = () => {
 	return (
@@ -13,7 +14,8 @@ const Technology = () => {
 
 					<div className="row text-center m80">
 						<div className="col-12 col-md-4 col-xs-6 mb-3 mb-lg-0 mb-xl-3">
-							<div className="card card-tecnology d-flex justify-content-center align-items-center">
+							<div className="card card-tecnology d-flex justify-content-center align-items-center position-relative">
+								<NumberToCard number={"01"} numberSize={"03"} theme={"black"} />
 								<div className="p-3">
 									<div className="img-technology">
 										<img src={aggregator} alt="OTEX AGGREGATOR" />
@@ -24,7 +26,8 @@ const Technology = () => {
 							</div>
 						</div>
 						<div className="col-12 col-md-4 col-xs-6 mb-3 mb-lg-0 mb-xl-3">
-							<div className="card card-tecnology d-flex justify-content-center align-items-center">
+							<div className="card card-tecnology d-flex justify-content-center align-items-center position-relative">
+								<NumberToCard number={"02"} numberSize={"03"} theme={"black"} />
 								<div className="p-3">
 									<div className="img-technology">
 										<img src={market} alt="OTEX MARKET MAKER" />
@@ -35,7 +38,8 @@ const Technology = () => {
 							</div>
 						</div>
 						<div className="col-12 col-md-4 col-xs-6 mb-3 mb-lg-0 mb-xl-3">
-							<div className="card card-tecnology d-flex justify-content-center align-items-center">
+							<div className="card card-tecnology d-flex justify-content-center align-items-center position-relative">
+								<NumberToCard number={"03"} numberSize={"03"} theme={"black"} />
 								<div className="p-3">												
 									<div className="img-technology">
 										<img src={trade} alt="OTEX TRADE EXECUTION" />
