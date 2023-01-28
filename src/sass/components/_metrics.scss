@@ -10,11 +10,11 @@
     &-card{
         background: transparent !important;
         border-radius: 16px;
-        border: 1px solid rgba(255, 255, 255, 0.3019607843) ;
+        border: 1px solid rgba(255, 255, 255, 1) ;
         margin-left: auto;
         margin-right: auto;
         height: 542px;
-        width: 90%;
+        width: 100%;
         max-width: 1294px;
 
 
@@ -33,7 +33,7 @@
         @media screen and (max-width: 767px) {
             width: 80%;
             height: 1px;
-            border-top: 1px solid #ffffff4d;
+            border-top: 1px solid #ffffff;
             bottom: 0;
             left: 0;
             right: 0;
@@ -41,7 +41,7 @@
             margin-right: auto;
         }        
         @media screen and (min-width: 768px) {
-            border-left: 1px solid #ffffff4d;
+            border-left: 1px solid #ffffff;
             width: 1px;
             height: 80%;
             right: 0;

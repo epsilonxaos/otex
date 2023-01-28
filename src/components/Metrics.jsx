@@ -16,7 +16,7 @@ const Metrics = () => {
 		<div className="panel-pin metrics" data-theme="white" ref={ref}>
 				<div className="container-fluid w-14">
 					<div className="d-flex flex-column justify-content-around mb-5 min-h-height" >
-						<div className="centrado pl-lg-5 mb-5"	 >
+						<div className="centrado mb-5"	 >
 							<h1 className="titulos mb-2">METRICS</h1>
 							<img src={flechametrics} alt="Metricas" />
 						</div>
@@ -37,7 +37,7 @@ const Metrics = () => {
 						</div>
 					</div>
 				</div>
-				<NextSeccion theme={'white'} />			
+				<NextSeccion theme={'white'} visibleLine={false} />			
 			</div>
 		
 	);
