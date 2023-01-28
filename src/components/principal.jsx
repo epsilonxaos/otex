@@ -15,7 +15,7 @@ const Principal = () => {
                     </div>
                 </div>
 
-                <NextSeccion theme={'white'} />
+                <NextSeccion theme={'white'} hiddenMovil={false} />
 
             </div>
 

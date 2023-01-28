@@ -34,15 +34,18 @@
         max-width: 345px;
         margin-left: auto;
         margin-right: auto;
-        height: 536px;
+        height: 420px;
         border: 1px solid black;
 
         .p-3 {
-            min-height: 375px;
+            @media screen and (min-width: 768px) {
+                min-height: 375px;
+            }
         }
 
         @media screen and (min-width: 768px) {
             margin-bottom: 0px;
+            height: 536px;
         }
         @media screen and (min-width: 992px) {
             margin-bottom: 0px;
@@ -64,6 +67,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            margin-bottom: 40px;
     
             @media screen and (min-width: 992px) {
                 margin-bottom: 70px;

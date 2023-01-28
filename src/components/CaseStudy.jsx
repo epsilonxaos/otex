@@ -55,7 +55,7 @@ const CaseStudy = () => {
 			<div className="casestudy p-0 position-relative">
 				<div className="container-fluid w-14 pb-3">
 					<div className="min-h-height py-40 ">
-						<div className="row pt-5 pb-5">
+						<div className="row pt-lg-5 pb-lg-5">
 							<div className="col-12 col-md-6 col-xs-12 pl-lg-4 mb-4 mb-md-0">
 								<p className="text-casestudy mb-5 pb-4 centrado">Our trade batch execution optimization system makes use of all the systems developed by OTEX to achieve the following:</p>
 							

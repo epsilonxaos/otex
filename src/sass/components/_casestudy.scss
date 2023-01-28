@@ -15,7 +15,9 @@
     }
 
     .m80 {
-        margin-bottom: 30px;
+        @media screen and (min-width: 992px) {
+            margin-bottom: 30px;
+        }
     }
 
     @media screen and (min-width: 992px) {
@@ -162,8 +164,8 @@
             z-index: -1;
             
             width: 1px;
-            height: 90%;
-            bottom: 0px;
+            height: 89%;
+            top: 0px;
             left: 0;
             right: 0;
 
