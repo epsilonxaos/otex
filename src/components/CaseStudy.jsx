@@ -73,7 +73,7 @@ const CaseStudy = () => {
 						</div>
 					</div>
 				</div>
-				<NextSeccion />
+				<NextSeccion visibleLine={false} />
 			</div>
 		</div> 
 		
