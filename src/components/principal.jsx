@@ -24,7 +24,7 @@ const Principal = () => {
 					<div className="min-h-height d-flex justify-content-between flex-column h-100 py-40">
 						{/* Info */}
 						<div className="row mb-5 justify-content-xl-between">
-							<div className="col-12 col-md-5 col-xl-6 mb-4 text-center text-lg-left pl-lg-5 pr-xl-0">
+							<div className="col-12 col-md-5 col-xl-6 mb-4 text-center text-lg-left pr-xl-0">
 								<h1 className="titulos">WHAT’S OTEX</h1>
 							</div>        
 							<div className="col-12 col-md-7 col-xl-6 pr-xl-5">

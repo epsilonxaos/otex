@@ -11,42 +11,36 @@ const Technology = () => {
 				<div className="d-flex flex-column justify-content-between py-40 min-h-height">
 					<h1 className="titulos mb-4 mb-lg-5">TECHNOLOGY</h1>
 
-					<div className="row text-center">
+					<div className="row text-center m80">
 						<div className="col-12 col-md-4 col-xs-6 mb-3 mb-lg-0 mb-xl-3">
-							<div className="card card-tecnology d-flex flex-columns align-items-center">
-								<div className="col-5 col-xl-6 d-flex align-items-end justify-content-center">
+							<div className="card card-tecnology d-flex justify-content-center align-items-center">
+								<div className="p-3">
 									<div className="img-technology">
 										<img src={aggregator} alt="OTEX AGGREGATOR" />
 									</div>
-								</div>
-								<div className="p-3">
-									<p className="textos public">OTEX AGGREGATOR</p>
-									<p className="textos">Aggregator that searches for the best possible achievable exchange rate for any token pair swap across several (private and public) liquidity pools.</p>
+									<p className="textos gotic mb-3">OTEX AGGREGATOR</p>
+									<p className="textos">Aggregator that searches for the best possible achievable exchange rate for any token pair across several (private and public) liquidity pools.</p>
 								</div>
 							</div>
 						</div>
 						<div className="col-12 col-md-4 col-xs-6 mb-3 mb-lg-0 mb-xl-3">
-							<div className="card card-tecnology d-flex flex-columns align-items-center">
-								<div className="col-5 col-xl-6 d-flex align-items-end justify-content-center">
+							<div className="card card-tecnology d-flex justify-content-center align-items-center">
+								<div className="p-3">
 									<div className="img-technology">
 										<img src={market} alt="OTEX MARKET MAKER" />
 									</div>
-								</div>
-								<div className="p-3">
-									<p className="textos public">OTEX MARKET MAKER</p>
-									<p className="textos">Market making system. Our liquidity pool is growing. Currently, we offer +100k USD in liquidity across different token pairs. We are prepared to offer the most competitive quotes and market make long-tail token pairs.</p>
+									<p className="textos gotic mb-3">OTEX MARKET MAKER</p>
+									<p className="textos">Market making system. <br /> Our liquidity pool is growing. Currently it offers +100k USD in liquidity that assists us in providing very competitive quotes for any token pair.</p>
 								</div>
 							</div>
 						</div>
 						<div className="col-12 col-md-4 col-xs-6 mb-3 mb-lg-0 mb-xl-3">
-							<div className="card card-tecnology d-flex flex-columns align-items-center">
-								<div className="col-5 col-xl-6 d-flex align-items-end justify-content-center">
+							<div className="card card-tecnology d-flex justify-content-center align-items-center">
+								<div className="p-3">												
 									<div className="img-technology">
 										<img src={trade} alt="OTEX TRADE EXECUTION" />
 									</div>
-								</div>
-								<div className="p-3">												
-									<p className="textos public">OTEX TRADE EXECUTION</p>
+									<p className="textos gotic mb-3">OTEX TRADE EXECUTION</p>
 									<p className="textos">Gas-optimized and MEV protected trade route execution smart contracts.</p>
 								</div>
 							</div>

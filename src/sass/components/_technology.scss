@@ -19,6 +19,13 @@
     .textos.public{
         font-weight: 700;
     }
+
+    .m80 {
+        @media screen and (min-width: 992px) {
+            margin-bottom: 50px;
+        }
+    }
+
     .card-tecnology {
         background: transparent !important;
         border-radius: 16px;
@@ -27,9 +34,12 @@
         max-width: 345px;
         margin-left: auto;
         margin-right: auto;
-        height: 55vh;
-        min-height: 360px;
+        height: 536px;
         border: 1px solid black;
+
+        .p-3 {
+            min-height: 375px;
+        }
 
         @media screen and (min-width: 768px) {
             margin-bottom: 0px;
@@ -37,12 +47,27 @@
         @media screen and (min-width: 992px) {
             margin-bottom: 0px;
         }
-    }
-    .img-technology {
-        max-height: 150px;
-        min-height: 150px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+
+        .textos.gotic {
+            font-family: 'Handel Gothic D' !important;
+        }
+
+        .textos {
+            @media screen and (min-width: 992px) {
+                max-width: 245px;
+            }
+        }
+
+        .img-technology {
+            max-height: 87px;
+            min-height: 87px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    
+            @media screen and (min-width: 992px) {
+                margin-bottom: 70px;
+            }
+        }
     }
 }

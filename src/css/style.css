@@ -37,13 +37,6 @@
 }
 
 /* Seccion Technology */
-.img-technology{
-    max-height: 150px;
-    min-height: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 .title-tech{
     font-family: "Handel Gothic D";
     font-weight: 300;
