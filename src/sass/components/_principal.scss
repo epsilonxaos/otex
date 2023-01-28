@@ -30,7 +30,6 @@
 
 	// Cards
 	.wrapper {
-		
 		height: 375px;
 		max-width: 320px;
 		width: 100%;
@@ -39,5 +38,28 @@
 		border-radius: 16px;
 		margin-left: auto;
 		margin-right: auto;
+
+        .textos {
+
+            @media screen and (min-width: 992px) {
+                max-width: 255px;
+            }
+            @media screen and (min-width: 1400px) {
+                max-width: 235px;
+            }
+        }
 	}
+
+    .wrapper-text {
+        margin: auto;
+        text-align: center;
+
+        @media screen and (min-width: 992px) {
+            max-width: 520px;
+            text-align: justify;
+        }
+        @media screen and (min-width: 1400px) {
+            max-width: 555px;
+        }
+    }
 }

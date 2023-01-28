@@ -55,6 +55,15 @@ body {
             // line-height: 67px; 
         }
         @media screen and (min-width: 992px) {
+            $size: 70px;
+            $lineh: calc($size - 12px);
+        
+            font-size: $size;
+            line-height: $lineh;
+            // font-size: 77px;
+            // line-height: 86px; 
+        }
+        @media screen and (min-width: 1400px) {
             $size: 77px;
             $lineh: calc($size - 12px);
         
@@ -142,7 +151,15 @@ body {
        }
     }
 
-
+    main {
+        .container-fluid {
+            @media screen and (min-width: 1366px) {
+                padding-left: 70px;
+                padding-right: 70px;
+            }
+        }
+    }
+    
     .centrado{
         text-align: center;
         @media screen and (min-width: 768px) {

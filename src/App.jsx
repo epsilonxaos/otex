@@ -40,11 +40,14 @@ function App() {
 	return (
 		<>
 			<Header theme={theme} />
-			<Principal />
-			<Technology/>
-			<Vision />
-			<CaseStudy/>
-			<Metrics/>
+
+			<main>
+				<Principal />
+				<Technology/>
+				<Vision />
+				<CaseStudy/>
+				<Metrics/>
+			</main>
 			<Footer/>
 		</>
 	)
