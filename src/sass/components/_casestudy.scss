@@ -5,13 +5,23 @@
     position: relative;
 
     .img-case{
-        max-height: 150px;
-        min-height: 120px;
+        max-height: 65px;
+        min-height: 65px;
         margin-bottom: 30px;
         display: flex;
         justify-content: center;
         align-items: center;
         background-color: #EAEAEA;
+    }
+
+    .m80 {
+        margin-bottom: 30px;
+    }
+
+    @media screen and (min-width: 992px) {
+        .m150 {
+            margin-bottom: 150px;
+        }
     }
 
     .titulos{
@@ -112,21 +122,26 @@
             display: flex;
             align-items: center;
             letter-spacing: -0.04em;
-            font-size: 20px;
-            line-height: 21px;
+            font-size: 16px;
+            line-height: 18px;
 
             @media screen and (min-width: 992px) {
-                font-size: 26px;
-                line-height: 31px;
+                font-size: 24px;
+                line-height: 26px;
             }
 
             span {
                 font-family: "Roboto Mono";
                 font-style: normal;
                 font-weight: 400;
-                font-size: 25px;
-                line-height: 33px;
+                font-size: 16px;
+                line-height: 18px;
                 letter-spacing: -0.04em;
+
+                @media screen and (min-width: 992px) {
+                    font-size: 24px;
+                    line-height: 26px;
+                }
 
                 color: #000000;
             }
@@ -155,7 +170,7 @@
             @media screen and (min-width: 768px) {
                 width: 90%;
                 height: 1px;
-                bottom: calc(40px + 1rem);
+                bottom: calc(42px + 1rem);
                 left: 0;
                 right: 0;
             }
@@ -163,16 +178,17 @@
     }
 
     .img-case2 {
-        height: 100%;
+        // height: 100%;
         object-fit: cover;
         border-radius: 16px;
+        // height: 760px;
         max-height: 760px;
         min-height: 350px;
         max-width: 615px;
         width: 90%;
 
         @media screen and (min-width: 992px) {
-            height: 80vh;
+            // height: 80vh;
         }
     }
 }
