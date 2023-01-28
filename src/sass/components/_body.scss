@@ -36,20 +36,32 @@ body {
         font-family: 'Handel Gothic D';
         font-style: normal;
         font-weight: 300;
-    
 
-        font-size: 37px;
-        line-height: 47px;
+        $size: 37px;
+        $lineh: calc($size - 12px);
+    
+        font-size: $size;
+        line-height: $lineh;
 
         color: #FFFFFF;
 
         @media screen and (min-width: 768px) {
-            font-size: 57px;
-            line-height: 67px; 
+            $size: 57px;
+            $lineh: calc($size - 12px);
+        
+            font-size: $size;
+            line-height: $lineh;
+            // font-size: 57px;
+            // line-height: 67px; 
         }
         @media screen and (min-width: 992px) {
-            font-size: 77px;
-            line-height: 86px; 
+            $size: 77px;
+            $lineh: calc($size - 12px);
+        
+            font-size: $size;
+            line-height: $lineh;
+            // font-size: 77px;
+            // line-height: 86px; 
         }
     }
 
