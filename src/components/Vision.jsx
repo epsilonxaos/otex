@@ -24,7 +24,7 @@ const Vision = () => {
 				</div>
 			</div>
 
-			<NextSeccion theme={'white'} />
+			<NextSeccion theme={'white'} visibleLine={false} />
 		</div>
 	);
 };
