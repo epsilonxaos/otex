@@ -58,7 +58,7 @@ const Principal = () => {
 								<div className="wrapper p-3 d-flex align-items-center justify-content-center position-relative">
 									<NumberToCard number={"03"} numberSize={"03"} />
 									<p className="textos">
-										Gas-optimized settlement execution contracts
+										Gas-optimized settlement execution contracts.
 									</p>
 								</div>
 							</div>
