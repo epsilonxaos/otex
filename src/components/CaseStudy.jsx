@@ -12,9 +12,9 @@ const CaseStudy = () => {
 		<div className="panel-pin" data-theme="black" id="caseStudy">
 			<div className="casestudy p-0">
 				<div className="container-fluid w-14">
-					<div className="min-h-height d-flex flex-column justify-content-around py-40">
+					<div className="min-h-height d-flex flex-column justify-content-around py-40 parte-uno">
 						<div className="wrapper text-center m150">
-							<h1 className="titulos"> CASE STUDY: <br className="d-none d-lg-block" /> COW PROTOCOL </h1>
+							<div className="mb-4"><h1 className="titulos"> CASE STUDY: <br className="d-none d-lg-block" /> COW PROTOCOL </h1></div>
 							<p className="textos mb-4 pt-30"> OTEX integrated its systems to develop a trade batch execution <br className="d-none d-md-block" /> optimization system a.k.a. ‘solver’ for COW protocol. </p>
 						</div>
 						
@@ -59,7 +59,7 @@ const CaseStudy = () => {
 							<div className="col-12 col-md-6 col-xs-12 pl-lg-4 mb-4 mb-md-0">
 								<p className="text-casestudy mb-5 pb-4 centrado">Our trade batch execution optimization system makes use of all the systems developed by OTEX to achieve the following:</p>
 							
-								<ul className="list-unstyled list-info p-0 m-0 overflow-hidden">
+								<ul className="list-unstyled list-info mb-5 p-0 m-md-0 overflow-hidden">
 									<li><p className="p-3 mb-0 pr-5 mr-lg-5 pl-4" > <span className="pr-5">01</span>  Efficient and accurate price discovery</p></li>
 									<li><p className="p-3 mb-0 pr-5 mr-lg-5 pl-4" > <span className="pr-5">02</span>  Market maker RFQ integrations</p></li>
 									<li><p className="p-3 mb-0 pr-5 mr-lg-5 pl-4" > <span className="pr-5">03</span>  Settlement cost optimization</p></li>

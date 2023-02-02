@@ -10,11 +10,13 @@ const Technology = () => {
 		<div className=" panel-pin technology p-0 " data-theme="black" id="technology">
 			<div className="container-fluid w-14">
 				<div className="d-flex flex-column justify-content-between py-40 min-h-height">
-					<h1 className="titulos mb-4 mb-lg-5">TECHNOLOGY</h1>
+					<div className="mb-4">
+						<h1 className="titulos mb-lg-5">TECHNOLOGY</h1>
+					</div>
 
-					<div className="row text-center m80">
+					<div className="row text-center m80 mb-md-5 mb-xl-5">
 						<div className="col-12 col-md-4 col-xs-6 mb-3 mb-lg-0 mb-xl-3">
-							<div className="card card-tecnology d-flex justify-content-center align-items-center position-relative">
+							<div className="card card-tecnology my-0 d-flex justify-content-center align-items-center position-relative">
 								<NumberToCard number={"01"} numberSize={"03"} theme={"black"} />
 								<div className="p-3">
 									<div className="img-technology">
@@ -26,7 +28,7 @@ const Technology = () => {
 							</div>
 						</div>
 						<div className="col-12 col-md-4 col-xs-6 mb-3 mb-lg-0 mb-xl-3">
-							<div className="card card-tecnology d-flex justify-content-center align-items-center position-relative">
+							<div className="card card-tecnology my-0 d-flex justify-content-center align-items-center position-relative">
 								<NumberToCard number={"02"} numberSize={"03"} theme={"black"} />
 								<div className="p-3">
 									<div className="img-technology">
@@ -38,7 +40,7 @@ const Technology = () => {
 							</div>
 						</div>
 						<div className="col-12 col-md-4 col-xs-6 mb-3 mb-lg-0 mb-xl-3">
-							<div className="card card-tecnology d-flex justify-content-center align-items-center position-relative">
+							<div className="card card-tecnology my-0 d-flex justify-content-center align-items-center position-relative">
 								<NumberToCard number={"03"} numberSize={"03"} theme={"black"} />
 								<div className="p-3">												
 									<div className="img-technology">

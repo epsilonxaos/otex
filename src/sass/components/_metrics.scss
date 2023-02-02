@@ -4,7 +4,19 @@
     background: #000;
     position: relative;
 
+    .min-h-height {
+        @media screen and (max-width: 767px) {
+            min-height: auto !important;
+        }
+    }
 
+    .flechaMetrica {
+        @media screen and (max-width: 767px) {
+            transform: rotate(90deg);
+            width: 27px;
+            margin-top: 5px;
+        }
+    }
 
 
     &-card{

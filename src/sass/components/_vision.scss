@@ -5,6 +5,12 @@
     background: #000;
     position: relative;
 
+    .titulos {
+        @media screen and (max-width: 767px) {
+            margin-top: 16px;
+        }
+    }
+
     .textos-vision{
         font-family: "Handel Gothic D";
         font-style: normal;

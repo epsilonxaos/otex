@@ -15,10 +15,10 @@ const Metrics = () => {
 	return (
 		<div className="panel-pin metrics" data-theme="white" ref={ref} id="metrics">
 				<div className="container-fluid w-14">
-					<div className="d-flex flex-column justify-content-around mb-5 min-h-height" >
+					<div className="d-flex flex-column justify-content-between justify-content-md-around mb-5 min-h-height" >
 						<div className="centrado mb-5"	 >
 							<h1 className="titulos mb-2">METRICS</h1>
-							<img src={flechametrics} alt="Metricas" />
+							<img src={flechametrics} alt="Metricas" className="flechaMetrica" />
 						</div>
 
 						<div className="row metrics-card text-center" >

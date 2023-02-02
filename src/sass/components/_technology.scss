@@ -6,6 +6,9 @@
         color: black;
         text-align: center;
 
+        @media screen and (max-width: 767px) {
+            margin-top: 16px;
+        }
         @media screen and (min-width: 768px) {
            text-align: right;
         }
