@@ -147,13 +147,13 @@
         
 
         @media screen and (min-width: 768px) {
-            border-top: 1px solid rgba(0, 0, 0, 0.3);;
-            border-bottom: 1px solid rgba(0, 0, 0, 0.3);;
+            border-top: 1px solid rgba(0, 0, 0, 1);;
+            border-bottom: 1px solid rgba(0, 0, 0, 1);;
             
         }
         @media screen and (min-width: 992px) {
-            border-top: 1px solid rgba(0, 0, 0, 0.3);;
-            border-bottom: 1px solid rgba(0, 0, 0, 0.3);;  
+            border-top: 1px solid rgba(0, 0, 0, 1);;
+            border-bottom: 1px solid rgba(0, 0, 0, 1);;  
             
         }
 
@@ -175,18 +175,18 @@
         
         @media screen and (min-width: 768px) {
             
-            border-left: 1px solid rgba(0, 0, 0, 0.3);
+            border-left: 1px solid rgba(0, 0, 0, 1);
         }
         @media screen and (min-width: 992px) {
              
-            border-left: 1px solid rgba(0, 0, 0, 0.3);
+            border-left: 1px solid rgba(0, 0, 0, 1);
         }
 
         
 
 
     }
-    &.socialMedia &botones:last-child::after {
+    & .socialMedia &-botones:last-child::after {
         content: none;
     }
 
