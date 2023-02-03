@@ -17,11 +17,11 @@ const Metrics = () => {
 				<div className="container-fluid w-14">
 					<div className="d-flex flex-column justify-content-between justify-content-md-around mb-5 min-h-height" >
 						<div className="centrado mb-5"	 >
-							<h1 className="titulos mb-2">METRICS</h1>
-							<img src={flechametrics} alt="Metricas" className="flechaMetrica" />
+							<h1 data-aos="flip-up" className="titulos mb-2">METRICS</h1>
+							<img data-aos="fade-right" src={flechametrics} alt="Metricas" className="flechaMetrica" />
 						</div>
 
-						<div className="row metrics-card text-center" >
+						<div className="row metrics-card text-center"  data-aos="zoom-in-up" data-aos-delay="400" >
 							<div className="col-12 col-md-4 rect-metrics centro" >
 								<p className="titulos">+{(inView && !isInit) ? <CountUp start={0} end={1} delay={0} formattingFn={(value) => numberWithCommas(value)} /> : '1'}B</p>
 								<p className="textos">VOLUME SETTLED</p>
