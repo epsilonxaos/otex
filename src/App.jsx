@@ -1,3 +1,5 @@
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 import Header from "./components/Header"
 import Principal from "./components/principal"
@@ -7,6 +9,7 @@ import Vision from "./components/Vision"
 import Metrics from "./components/Metrics"
 import Footer from "./components/Footer"
 import { useEffect, useState } from "react"
+
 
 
 function App() {
@@ -33,6 +36,12 @@ function App() {
 				})
 				// .addIndicators() // add indicators (requires plugin)
 				.addTo(controller);
+		});
+
+		AOS.init({
+			duration: 1500,
+			easing: 'ease-in-sine',
+			once: true
 		});
 	}, []);
 
