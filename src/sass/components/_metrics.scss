@@ -12,7 +12,7 @@
 
     .flechaMetrica {
         @media screen and (max-width: 767px) {
-            transform: rotate(90deg);
+            transform: rotate(90deg) !important;
             width: 27px;
             margin-top: 5px;
         }
