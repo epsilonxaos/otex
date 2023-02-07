@@ -1,6 +1,10 @@
 body {
     overflow-x: hidden;
 
+    .panel-pin {
+        overflow: hidden !important;
+    }
+
 	.min-h-height {
 		min-height: calc(100vh - 50px) !important;
 		
