@@ -21,7 +21,7 @@ const Principal = () => {
 						</div>
 					</div>
 
-					<NextSeccion theme={'white'} visibleLine={false} className={"animate__animated animate__fadeIn animate__slow animate__delay-2s"} hiddenMovil={false} />
+					<NextSeccion toSeccion={"about"} theme={'white'} visibleLine={false} className={"animate__animated animate__fadeIn animate__slow animate__delay-2s"} hiddenMovil={false} />
 
 				</div>
 
@@ -121,7 +121,7 @@ const Principal = () => {
 							</div>
 						</div>
 					
-						<NextSeccion theme={'black'} visibleLine={false} />
+						<NextSeccion toSeccion={"vision"} theme={'black'} visibleLine={false} />
 					</div>
 				</div>
 			</div>

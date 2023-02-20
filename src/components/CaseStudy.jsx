@@ -46,8 +46,6 @@ const CaseStudy = () => {
 						</div>
 					</div>	
 				</div>
-				
-				<NextSeccion />
 			</div>
 			
 			
@@ -73,7 +71,7 @@ const CaseStudy = () => {
 						</div>
 					</div>
 				</div>
-				<NextSeccion visibleLine={false} />
+				<NextSeccion toSeccion={"metrics"} visibleLine={false} />
 			</div>
 		</div> 
 		

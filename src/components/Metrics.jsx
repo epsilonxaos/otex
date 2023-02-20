@@ -37,7 +37,7 @@ const Metrics = () => {
 						</div>
 					</div>
 				</div>
-				<NextSeccion theme={'white'} visibleLine={false} />			
+				<NextSeccion toSeccion={"contact"} theme={'white'} visibleLine={false} />			
 			</div>
 		
 	);
