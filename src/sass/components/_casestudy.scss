@@ -90,14 +90,14 @@
     ul{
         border:1px solid;
 
-        li{
+        // li{
             
-            &:hover{
-                color: #fff !important;
-                background: #AF48FF;
+        //     &:hover{
+        //         color: #fff !important;
+        //         background: #AF48FF;
                 
-            }
-        }
+        //     }
+        // }
 
         li+li{
             border-top: 1px solid;
@@ -123,15 +123,15 @@
                 padding: 25px 20px;
             }
             
-            &:hover {
-                p {
-                    color: white;
+            // &:hover {
+            //     p {
+            //         color: white;
 
-                    span {
-                        color: white
-                    }
-                }
-            }
+            //         span {
+            //             color: white
+            //         }
+            //     }
+            // }
         }
 
         p {
