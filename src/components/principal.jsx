@@ -15,7 +15,7 @@ const Principal = () => {
                     </div>
                 </div>
 
-                <NextSeccion theme={'white'} hiddenMovil={false} />
+                <NextSeccion theme={'white'} className={"animate__animated animate__fadeIn animate__slow animate__delay-2s"} hiddenMovil={false} />
 
             </div>
 
