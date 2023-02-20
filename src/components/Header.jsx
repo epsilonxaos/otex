@@ -7,7 +7,7 @@ const ListMenu = () => {
     return(
         <ul id="nav" className="list-unstyled list-menu mb-1 d-md-flex align-items-md-center justify-content-md-end">
             <li><Link activeClass="active" to="about" spy={true} smooth={true} offset={-61} duration={500} >ABOUT</Link></li>
-            <li><Link activeClass="active" to="technology" spy={true} smooth={true} offset={-61} duration={500} >TECHNOLOGY</Link></li>
+            {/* <li><Link activeClass="active" to="technology" spy={true} smooth={true} offset={-61} duration={500} >TECHNOLOGY</Link></li> */}
             <li><Link activeClass="active" to="vision" spy={true} smooth={true} offset={-61} duration={500} >VISION</Link></li>
             <li><Link activeClass="active" to="caseStudy" spy={true} smooth={true} offset={-61} duration={500} >CASE STUDY</Link></li>
             <li><Link activeClass="active" to="metrics" spy={true} smooth={true} offset={-61} duration={500} >METRICS</Link></li>

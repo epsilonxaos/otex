@@ -52,7 +52,7 @@ function App() {
 
 			<main>
 				<Principal />
-				<Technology/>
+				{/* <Technology/> */}
 				<Vision />
 				<CaseStudy/>
 				<Metrics/>
