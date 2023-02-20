@@ -250,13 +250,6 @@
 }
 
 
-.title-footer-buttons:hover,
-.title-footer-buttons:active,
-.title-footer-buttons:focus {
-    color: #000;
-    background-color: #AF48FF;
-}
-
 .title-footer-leyend{
     font-family: 'Roboto Mono';
     font-style: normal;

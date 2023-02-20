@@ -197,3 +197,14 @@
     background-color: #AF48FF;
 }
 }
+
+.title-footer-buttons:hover,
+.title-footer-buttons:active,
+.title-footer-buttons:focus {
+    color: white;
+    background-color: #AF48FF;
+
+    a {
+        color: white !important;
+    }
+}
