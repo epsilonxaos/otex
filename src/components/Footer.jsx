@@ -18,9 +18,9 @@ const Footer = () => {
 
                     <div className="col-12 justify-content-center " style={{paddingTop:"50px",paddingBottom:"50px"}}>
                         <ul className="centro p-0 list-unstyled m-0 socialMedia" data-aos="zoom-in-up" data-aos-delay="300">
-                            <li className="col-12 col-md-4 col-xs-6  title-footer-buttons footer-botones"><a data-aos="fade-up" data-aos-delay="300"> <BsLinkedin className='svgFooter' />  Linkedin</a></li>
-                            <li className="col-12 col-md-4 col-xs-6  title-footer-buttons footer-botones"><a data-aos="fade-up" data-aos-delay="400"> <BsDiscord className='svgFooter' /> Discord</a></li>
-                            <li className="col-12 col-md-4 col-xs-6  title-footer-buttons footer-botones"><a data-aos="fade-up" data-aos-delay="500"> <BsTelegram className='svgFooter' /> Telegram</a></li>
+                            <li className="col-12 col-md-4 col-xs-6  title-footer-buttons footer-botones"><a target='_blank' href='https://www.linkedin.com/company/otex-fi/'  data-aos="fade-up" data-aos-delay="300"> <BsLinkedin className='svgFooter' />  Linkedin</a></li>
+                            <li className="col-12 col-md-4 col-xs-6  title-footer-buttons footer-botones"><a  target='_blank' href='https://discord.gg/kPXMT7rDFA' data-aos="fade-up" data-aos-delay="400"> <BsDiscord className='svgFooter' /> Discord</a></li>
+                            <li className="col-12 col-md-4 col-xs-6  title-footer-buttons footer-botones"><a target='_blank' href='https://t.me/+RDHo2LEysvBmODU0' data-aos="fade-up" data-aos-delay="500"> <BsTelegram className='svgFooter' /> Telegram</a></li>
                         </ul>
                     </div>
                     <div className="text-center ">

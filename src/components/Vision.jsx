@@ -15,8 +15,8 @@ const Vision = () => {
 							<p className="textos mb-3 mb-xl-4" data-aos="fade-right" data-aos-delay="200" >Our long-term goal is to develop OTEX to the point it becomes the most active enabler of transactions on-chain. In short, we are aiming for a future in which no on-chain transaction is executed and settled without OTEX being involved (from providing liquidity, to smart order routing, to mining and settling the transactions).</p>
 							<p className="textos-vision pda20" data-aos="fade-right" data-aos-delay="400">HOW WILL WE ACHIEVE OUR VISION?</p>
 							<ul className="textos style0" data-aos="fade-right" data-aos-delay="600" >
-								<li className="mb-3 mb-xl-4">We started by developing trade optimization and trade execution needed by specialized protocols such as COW protocol.</li>
-								<li className="mb-3 mb-xl-4">As we improve our technology, we will aim to integrate our systems in to new protocols or simply start participating in existing markets.</li>
+								<li className="mb-3 mb-xl-4">We started by developing the optimization and trade execution systems needed by specialized protocols such as COW protocol.</li>
+								<li className="mb-3 mb-xl-4">Moving forward, we will continue improving our systems and integrating them into new protocols.</li>
 							</ul>
 						</div>
 						<div className="col-12 col-md-6 col-xs-12 text-center mb-3 mb-md-0">
