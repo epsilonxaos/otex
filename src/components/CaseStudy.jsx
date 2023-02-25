@@ -15,7 +15,7 @@ const CaseStudy = () => {
 					<div className="min-h-height d-flex flex-column justify-content-around py-40 parte-uno">
 						<div className="wrapper text-center m150">
 							<div className="mb-4"><h1 className="titulos" data-aos="zoom-in-down"> CASE STUDY: <br /> COW PROTOCOL </h1></div>
-							<p className="textos mb-4 pt-30" data-aos="flip-down" data-aos-delay="200"> OTEX integrated its systems to develop a trade batch execution <br className="d-none d-md-block" /> optimization system a.k.a. ‘solver’ for COW protocol. </p>
+							<p className="textos mb-4 pt-30" data-aos="flip-down" data-aos-delay="200"> OTEX integrated its systems to develop a trade batch execution <br className="d-none d-md-block" /> optimization system a.k.a. ‘solver’ for <span className="morado-bold">COW protocol</span>. </p>
 						</div>
 						
 						<div className="row lineItems m80">
@@ -58,10 +58,10 @@ const CaseStudy = () => {
 								<p className="text-casestudy mb-5 pb-4 centrado" data-aos="fade-up" >Our trade batch execution optimization system makes use of all the systems developed by OTEX to achieve the following:</p>
 							
 								<ul className="list-unstyled list-info mb-5 p-0 m-md-0 overflow-hidden" data-aos="zoom-in-up" data-aos-delay="200">
-									<li><p className="p-3 mb-0 pr-5 mr-lg-5 pl-4" > <span className="pr-5">01</span>  Efficient and accurate price discovery</p></li>
-									<li><p className="p-3 mb-0 pr-5 mr-lg-5 pl-4" > <span className="pr-5">02</span>  Market maker RFQ integrations</p></li>
-									<li><p className="p-3 mb-0 pr-5 mr-lg-5 pl-4" > <span className="pr-5">03</span>  Settlement cost optimization</p></li>
-									<li><p className="p-3 mb-0 pr-5 mr-lg-5 pl-4" > <span className="pr-5">04</span>  Trade execution optimization at batch level</p></li>
+									<li><p className="p-3 mb-0 pr-5 mr-lg-5 pl-4" > <span className="pr-5 morado-bold">01</span> Efficient and accurate price discovery</p></li>
+									<li><p className="p-3 mb-0 pr-5 mr-lg-5 pl-4" > <span className="pr-5 morado-bold">02</span> Market maker RFQ integrations</p></li>
+									<li><p className="p-3 mb-0 pr-5 mr-lg-5 pl-4" > <span className="pr-5 morado-bold">03</span> Settlement cost optimization</p></li>
+									<li><p className="p-3 mb-0 pr-5 mr-lg-5 pl-4" > <span className="pr-5 morado-bold">04</span> Trade execution optimization at batch level</p></li>
 								</ul>
 
 							</div>

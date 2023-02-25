@@ -39,39 +39,11 @@ const Principal = () => {
 								</div>        
 								<div className="col-12 col-md-7 col-xl-6 pr-xl-5">
 									<div className="wrapper-text" data-aos="fade-up" data-aos-delay="200">
-										<p className="textos mb-3">OTEX helps decentralized exchanges execute asset swaps at the best possible prices — pulling liquidity across different liquidity providers —, for the lowest possible cost — reducing gas consumption wherever possible — and in the safest way possible — protecting from MEV.</p>
-										<p className="textos">The stack of proprietary on-chain and off-chain software we currently maintain and are integrating across different DeFi protocols are:</p>
+										<p className="textos mb-3">OTEX helps decentralized exchanges execute asset swaps at the best possible prices — pulling liquidity across different liquidity providers —, for the lowest possible cost — reducing gas consumption wherever possible — and in the safest way possible — protecting from <span className="morado-bold">MEV</span>.</p>
+										<p className="textos">The stack of proprietary on-chain and off-chain software we currently maintain and are integrating across different <span className="morado-bold">DeFi protocols</span> are:</p>
 									</div>
 								</div>
 							</div>
-
-							{/* Cards */}
-							{/* <div className="row text-center mb-5">
-								<div className="col-12 col-md-4 col-xs-6 mb-3">
-									<div className="wrapper p-3 d-flex align-items-center justify-content-center position-relative" data-aos="zoom-in-up" data-aos-delay="200">
-										<NumberToCard number={"01"} numberSize={"03"} />
-										<p className="textos">
-											In-house built DEX aggregators that address bespoke price discovery requirements imposed by different decentralized exchanges.
-										</p>
-									</div>
-								</div>
-								<div className="col-12 col-md-4 col-xs-6 mb-3">
-									<div className="wrapper p-3 d-flex align-items-center justify-content-center position-relative" data-aos="zoom-in-up" data-aos-delay="400">
-										<NumberToCard number={"02"} numberSize={"03"} />
-										<p className="textos">
-											Market making RFQ systems that underwrite just-in-time (deep) liquidity.
-										</p>
-									</div>
-								</div>
-								<div className="col-12 col-md-4 col-xs-6 mb-3">
-									<div className="wrapper p-3 d-flex align-items-center justify-content-center position-relative" data-aos="zoom-in-up" data-aos-delay="600">
-										<NumberToCard number={"03"} numberSize={"03"} />
-										<p className="textos">
-											Gas-optimized settlement execution contracts.
-										</p>
-									</div>
-								</div>
-							</div> */}
 
 							<div className="row text-center m80 mb-md-5 mb-xl-5">
 								<div className="col-12 col-md-4 col-xs-6 mb-3 mb-lg-0 mb-xl-3">
@@ -94,7 +66,7 @@ const Principal = () => {
 												<img src={market} alt="OTEX MARKET MAKER"  />
 											</div>
 											<p   className="textos gotic mb-3">OTEX MARKET MAKER</p>
-											<p  data-aos="flip-up"  className="textos">Market making system. <br /> Our liquidity pool is growing. Currently it offers +100k USD in liquidity that assists us in providing very competitive quotes for any token pair.</p>
+											<p  data-aos="flip-up"  className="textos">Market making system. <br /> Our liquidity pool is growing. Currently it offers <span className="morado-bold">+100k USD</span> in liquidity that assists us in providing very competitive quotes for any token pair.</p>
 										</div>
 									</div>
 								</div>
@@ -106,7 +78,7 @@ const Principal = () => {
 												<img src={trade} alt="OTEX TRADE EXECUTION"  />
 											</div>
 											<p  className="textos gotic mb-3">OTEX TRADE EXECUTION</p>
-											<p  className="textos">Gas-optimized and MEV protected trade route execution smart contracts.</p>
+											<p  className="textos">Gas-optimized and <span className="morado-bold">MEV</span> protected trade route execution smart contracts.</p>
 										</div>
 									</div>
 								</div>
@@ -116,7 +88,7 @@ const Principal = () => {
 							<div className="row justify-content-center text-center">
 								<div className="col-12 col-md-9 col-lg-8 col-xl-7">
 									<p className="textos textos-finales" data-aos="zoom-in" data-aos-delay="600"  >Our systems have helped settled <b style={{color:"#AF48FF"}}>+1B USD</b> of on-chain transactions. <br className="d-none d-md-block" />  We are keen to speak with new and established protocols to explore the <br className="d-none d-md-block" /> possibility of integrating our infrastructure into your ecosystem.</p>
-									<p className="textos morado clic"><Link to="contact" spy={true} smooth={true} offset={-61} duration={500}>Contact Us</Link></p>
+									<p className="textos morado clic font-weight-bold"><Link to="contact" spy={true} smooth={true} offset={-61} duration={500}>Contact Us</Link></p>
 								</div>
 							</div>
 						</div>

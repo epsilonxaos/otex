@@ -25,7 +25,7 @@ const Footer = () => {
                     </div>
                     <div className="text-center ">
                         <p className='leyend' data-aos="zoom-in" data-aos-delay="500">
-                                DESIGN & DEVELOPMENT BY MADEBYPARTNERS® <br />
+                                DESIGN & DEVELOPMENT BY <a href="https://www.madeby.partners/" className='hover-special' target="_blank" rel="noopener noreferrer">MADEBYPARTNERS®</a> <br />
                                 2023 OTEX®. ALL RIGHTS RESERVED.
                         </p>
                             

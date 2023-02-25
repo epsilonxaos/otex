@@ -5,6 +5,13 @@
     position: relative;
     color: black;
 
+    .hover-special {
+        transition: all .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+        &:hover {
+            color: #AF48FF;
+        }
+    }
+
 
     .textos {
         color: black;
