@@ -87,8 +87,8 @@ const Principal = () => {
 							{/* Text */}
 							<div className="row justify-content-center text-center">
 								<div className="col-12 col-md-9 col-lg-8 col-xl-7">
-									<p className="textos textos-finales" data-aos="zoom-in" data-aos-delay="600"  >Our systems have helped settled <b style={{color:"#AF48FF"}}>+1B USD</b> of on-chain transactions. <br className="d-none d-md-block" />  We are keen to speak with new and established protocols to explore the <br className="d-none d-md-block" /> possibility of integrating our infrastructure into your ecosystem.</p>
-									<p className="textos morado clic font-weight-bold"><Link to="contact" spy={true} smooth={true} offset={-61} duration={500}>Contact Us</Link></p>
+									<p className="textos textos-finales" data-aos="zoom-in" >Our systems have helped settled <b style={{color:"#AF48FF"}}>+1B USD</b> of on-chain transactions. <br className="d-none d-md-block" />  We are keen to speak with new and established protocols to explore the <br className="d-none d-md-block" /> possibility of integrating our infrastructure into your ecosystem.</p>
+									<p className="textos morado clic" data-aos="zoom-in" ><Link to="contact" spy={true} smooth={true} offset={-61} duration={500}>Contact Us</Link></p>
 								</div>
 							</div>
 						</div>
