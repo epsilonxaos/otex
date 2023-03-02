@@ -33,7 +33,7 @@ const Principal = () => {
 					<div className="container-fluid w-14 h-100">
 						<div className="min-h-height d-flex justify-content-between flex-column h-100 py-40">
 							{/* Info */}
-							<div className="row mb-5 justify-content-xl-between">
+							<div className="row mb-4 mb-lg-5 mb-md-5 justify-content-xl-between">
 								<div className="col-12 col-md-5 col-xl-6 mb-4 text-center text-lg-left pr-xl-0">
 									<h1 className="titulos" data-aos="fade-up">WHAT’S OTEX</h1>
 								</div>        
@@ -45,7 +45,7 @@ const Principal = () => {
 								</div>
 							</div>
 
-							<div className="row text-center m80 mb-md-5 mb-xl-5">
+							<div className="row text-center m80 mb-md-5 mb-xl-5 mb-5 mb-lg-0 mb-md-0 ">
 								<div className="col-12 col-md-4 col-xs-6 mb-3 mb-lg-0 mb-xl-3">
 									<div className="card card-tecnology my-0 d-flex justify-content-center align-items-center position-relative " data-aos="zoom-in-up" data-aos-delay="200">
 										<NumberToCard number={"01"} numberSize={"03"} theme={"black"}  />

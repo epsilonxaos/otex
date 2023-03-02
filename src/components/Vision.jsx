@@ -8,7 +8,7 @@ const Vision = () => {
 			<div className="container-fluid w-14">
 				<div className="min-h-height py-40 d-flex flex-column justify-content-center">
 					<div className="row align-items-center">
-						<div className="col-12 col-md-6 col-xs-12 pl-lg-5 mb-4 mb-md-0 centrado">
+						<div className="col-12 col-md-6 col-xs-12 pl-lg-5 mb-5 mb-lg-4 mb-md-4 mb-md-0 centrado">
 							<div className="mb-4" data-aos="fade-right"  >
 								<h1 className="titulos mb-md-5">OUR VISION</h1>
 							</div>
